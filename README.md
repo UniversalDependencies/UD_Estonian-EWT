@@ -1,6 +1,6 @@
 # Summary
 
-UD EWT treebank is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. The treebank contains 1,662 trees, 27,246 tokens.
+UD EWT treebank consists of different genres of new media. The treebank contains 3,157 trees, 43,084 tokens.
 
 
 # Introduction
@@ -29,7 +29,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
-* UD v2.6: internet forum texts are added, 0-nodes are added in clauses.
+* UD v2.6: new internet forum texts (~15,000 tokens), 0-nodes in clauses.
 * UD v2.4: automatic conversion from CG, manual reannotation.
 
 <pre>
