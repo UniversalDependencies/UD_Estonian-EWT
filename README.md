@@ -6,7 +6,7 @@ UD EWT treebank consists of different genres of new media. The treebank contains
 # Introduction
 
 Estonian Web Treebank UD v2.6 consists of two parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
-The newer part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using stanza parser (https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
+The newer part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser] (https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
 
 The treebank consists of 3,157 trees, 43,084 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, but there are no other types of enhanced dependencies in this version.
 
