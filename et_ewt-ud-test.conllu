@@ -12626,7 +12626,7 @@
 7	noh	noh	INTJ	I	_	13	discourse	13:discourse	SpaceAfter=No
 8	,	,	PUNCT	Z	_	13	punct	13:punct	_
 9	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
-10	v6inud	v6ima	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	13	aux	13:aux	_
+10	v6inud	võima	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	13	aux	13:aux	_
 11	ju	ju	ADV	D	_	13	advmod	13:advmod	_
 12	paremini	paremini	ADV	D	_	13	advmod	13:advmod	_
 13	teha	tegema	VERB	V	VerbForm=Inf	1	conj	1:conj	SpaceAfter=No

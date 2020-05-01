@@ -22895,7 +22895,7 @@
 
 # sent_id = hfoorum_1224
 # text = olen hetkel suht meeltesegaduses, varsti unustan eksamile mõtlemast ja ootan punktisummat
-1	olen	tolema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+1	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
 2	hetkel	hetk	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl	_
 3	suht	suht	ADV	D	_	4	advmod	4:advmod	_
 4	meeltesegaduses	meelte_segadus	NOUN	S	Case=Ine|Number=Sing	0	root	0:root	SpaceAfter=No
