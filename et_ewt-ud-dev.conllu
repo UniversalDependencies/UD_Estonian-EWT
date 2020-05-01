@@ -29,7 +29,7 @@
 20	Canon	Canon	PROPN	S	Case=Nom|Number=Sing	18	conj	18:conj	_
 20.1	jäägu	jääma	VERB	V	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	12:conj	Empty=20.1
 21	enda	ise	PRON	P	Case=Gen|Number=Sing|PronType=Prs|Reflex=Yes	22	nmod	22:nmod	_
-22	omade	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	18	orphan:obl	20.1:obl	_
+22	omade	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	18	orphan	20.1:obl	_
 23	juurde	juurde	ADP	K	AdpType=Post	22	case	22:case	SpaceAfter=No
 24	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
@@ -64,7 +64,7 @@
 8	PALJU	palju	ADV	D	_	9	advmod	9:advmod	_
 9	mürasem	mürane	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	_
 10	ISO	ISO	NOUN	Y	Abbr=Yes	9	obl	9:obl	_
-11	400st	400	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	10	flat:name	10:flat	_
+11	400st	400	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	10	flat	10:flat	_
 12	alates	alates	ADP	K	AdpType=Post	10	case	10:case	_
 
 # sent_id = ewtb1_112998_5
@@ -104,7 +104,7 @@
 5	ütelda	ütlema	VERB	V	VerbForm=Inf	7	acl	7:acl	_
 6	"	"	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
 7	test	test	NOUN	S	Case=Nom|Number=Sing	3	xcomp	3:xcomp	_
-8	driveriks	driver	NOUN	S	Case=Tra|Number=Sing	7	flat:name	7:flat	SpaceAfter=No
+8	driveriks	driver	NOUN	S	Case=Tra|Number=Sing	7	flat	7:flat	SpaceAfter=No
 9	"	"	PUNCT	Z	_	7	punct	7:punct	_
 10	ja	ja	CCONJ	J	_	12	cc	12:cc	_
 11	siis	siis	ADV	D	_	12	advmod	12:advmod	_
@@ -171,7 +171,7 @@
 1	E-330	E-330	PROPN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
 2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
 3	EOS	EOS	PROPN	S	Case=Nom|Number=Sing	1	conj	1:conj	_
-4	350D	350D	PROPN	S	Case=Nom|Number=Sing	3	flat:name	3:flat	_
+4	350D	350D	PROPN	S	Case=Nom|Number=Sing	3	flat	3:flat	_
 5	istuvad	istuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	käes	käsi	NOUN	S	Case=Ine|Number=Sing	5	obl	5:obl	_
 7	palju	palju	ADV	D	_	8	advmod	8:advmod	_
@@ -327,7 +327,7 @@
 2	siis	siis	ADV	D	_	4	advmod	4:advmod	_
 3	"	"	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 4	Lumix	Lumix	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	_
-5	DMC-L1	DMC-L1	PROPN	S	Case=Nom|Number=Sing	4	flat:name	4:flat	SpaceAfter=No
+5	DMC-L1	DMC-L1	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	SpaceAfter=No
 6	"	"	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 7	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
@@ -446,7 +446,7 @@
 14	ja	ja	CCONJ	J	_	15	cc	15:cc	_
 15	proovi	proovima	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	12:conj	_
 16	Olympus	Olympus	PROPN	S	Case=Nom|Number=Sing	18	nmod	18:nmod	_
-17	E-330	E-330	PROPN	S	Case=Nom|Number=Sing	16	flat:name	16:flat	_
+17	E-330	E-330	PROPN	S	Case=Nom|Number=Sing	16	flat	16:flat	_
 18	kaamerat	kaamera	NOUN	S	Case=Par|Number=Sing	15	obj	15:obj	SpaceAfter=No
 19	.	.	PUNCT	Z	_	12	punct	12:punct	_
 
@@ -700,7 +700,7 @@
 3	teist	teine	ADJ	N	Case=Par|Number=Sing|NumType=Ord	4	amod	4:amod	_
 4	päeva	päev	NOUN	S	Case=Par|Number=Sing	8	obl	8:obl	_
 5	EOS	EOS	PROPN	S	Case=Nom|Number=Sing	8	nmod	8:nmod	_
-6	350D	350D	PROPN	S	Case=Gen|Number=Sing	5	flat:name	5:flat	_
+6	350D	350D	PROPN	S	Case=Gen|Number=Sing	5	flat	5:flat	_
 7	aktiivne	aktiivne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	8:amod	_
 8	kasutaja	kasutaja	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
 9	ning	ning	CCONJ	J	_	13	cc	13:cc	_
@@ -890,18 +890,18 @@
 14	baasiks	baas	NOUN	S	Case=Tra|Number=Sing	16	xcomp	16:xcomp	_
 15	ju	ju	ADV	D	_	16	advmod	16:advmod	_
 16	minolta	Minolta	PROPN	S	Case=Nom|Number=Sing	7	parataxis	7:parataxis	_
-17	5D	5D	PROPN	S	Case=Nom|Number=Sing	16	flat:name	16:flat	_
+17	5D	5D	PROPN	S	Case=Nom|Number=Sing	16	flat	16:flat	_
 18	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	24	nsubj:cop	24:nsubj	_
 19	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
 20	ikka	ikka	ADV	D	_	24	advmod	24:advmod	_
 21	pigem	pigem	ADV	D	_	22	advmod	22:advmod	_
 22	Canon	Canon	PROPN	S	Case=Nom|Number=Sing	24	nmod	24:nmod	_
-23	350D	350D	PROPN	S	Case=Gen|Number=Sing	22	flat:name	22:flat	_
+23	350D	350D	PROPN	S	Case=Gen|Number=Sing	22	flat	22:flat	_
 24	konkurent	konkurent	NOUN	S	Case=Nom|Number=Sing	16	acl:relcl	16:acl	SpaceAfter=No
 25	,	,	PUNCT	Z	_	29	punct	29:punct	_
 26	mitte	mitte	ADV	D	Polarity=Neg	27	advmod	27:advmod	_
 27	Canon	Canon	PROPN	S	Case=Nom|Number=Sing	29	nmod	29:nmod	_
-28	30D	30D	PROPN	S	Case=Gen|Number=Sing	27	flat:name	27:flat	_
+28	30D	30D	PROPN	S	Case=Gen|Number=Sing	27	flat	27:flat	_
 29	konkurent	konkurent	NOUN	S	Case=Nom|Number=Sing	24	conj	24:conj	SpaceAfter=No
 30	)	)	PUNCT	Z	_	16	punct	16:punct	SpaceAfter=No
 31	.	.	PUNCT	Z	_	7	punct	7:punct	_
@@ -1102,7 +1102,7 @@
 20	lasta	laskma	VERB	V	VerbForm=Inf	15	acl:relcl	15:acl	_
 21	vms	vms	ADV	Y	Abbr=Yes	20	obl	20:obl	_
 22	Eric	Eric	PROPN	S	Case=Nom|Number=Sing	15	appos	15:appos	_
-23	Clapton	Clapton	PROPN	S	Case=Nom|Number=Sing	22	flat:name	22:flat	SpaceAfter=No
+23	Clapton	Clapton	PROPN	S	Case=Nom|Number=Sing	22	flat	22:flat	SpaceAfter=No
 24	:	:	PUNCT	Z	_	25	punct	25:punct	_
 25	Tears	Tears	PROPN	S	Case=Nom|Number=Sing	22	list	22:list	_
 26	in	in	X	S	Case=Nom|Number=Sing	25	flat:foreign	25:flat	_
@@ -2360,9 +2360,9 @@
 4	maksab	maksma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	mees	mees	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 6	ja	ja	CCONJ	J	_	9	cc	7.1:cc	_
-7	siis	siis	ADV	D	_	9	orphan:advmod	7.1:advmod	_
+7	siis	siis	ADV	D	_	9	orphan	7.1:advmod	_
 7.1	maksan	maksma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	4:conj	Empty=7.1|Place=8
-8	jälle	jälle	ADV	D	_	9	orphan:advmod	7.1:advmod	_
+8	jälle	jälle	ADV	D	_	9	orphan	7.1:advmod	_
 9	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	conj	7.1:nsubj	_
 10	jne	jne	ADV	Y	Abbr=Yes	4	conj	4:conj	SpaceAfter=No
 11	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -5682,8 +5682,8 @@
 3	palju	palju	ADV	D	_	2	advmod	2:advmod	_
 4	teised	teine	PRON	P	Case=Nom|Number=Plur|PronType=Dem	2	conj	4.1:nsubj	_
 4.1	tahavad	tahtma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:conj	Empty=4.1
-5	rohkem	rohkem	ADV	D	_	4	orphan:advmod	4.1:advmod	_
-6	veel	veel	ADV	D	_	4	orphan:advmod	4.1:advmod	_
+5	rohkem	rohkem	ADV	D	_	4	orphan	4.1:advmod	_
+6	veel	veel	ADV	D	_	4	orphan	4.1:advmod	_
 7	mõned	mõni	PRON	P	Case=Nom|Number=Plur|PronType=Ind	8	nsubj	8:nsubj	_
 8	tahavad	tahtma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
 9	kõike	kõik	PRON	P	Case=Par|Number=Sing|PronType=Tot	8	obj	8:obj	_
@@ -7383,9 +7383,9 @@
 11	ja	ja	CCONJ	J	_	16	cc	14.1:cc	_
 12	10011110	10011110	NUM	N	NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
 13	vms	vms	ADV	Y	Abbr=Yes	12	conj	12:conj	_
-14	arvust	arv	NOUN	S	Case=Ela|Number=Sing	16	orphan:obl	14.1:obl	_
+14	arvust	arv	NOUN	S	Case=Ela|Number=Sing	16	orphan	14.1:obl	_
 14.1	leida	leidma	VERB	V	VerbForm=Inf	_	_	6:conj	Empty=14.1
-15	siis	siis	ADV	D	_	16	orphan:advmod	14.1:advmod	_
+15	siis	siis	ADV	D	_	16	orphan	14.1:advmod	_
 16	tavaline	tavaline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	conj	14.1:obj	SpaceAfter=No
 17	?	?	PUNCT	Z	_	6	punct	6:punct	_
 
@@ -8690,7 +8690,7 @@
 5	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
 6	tegu	tegu	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	9:punct	_
-8	tegudest	tegu	NOUN	S	Case=Ela|Number=Plur	9	orphan:obl	8.1:obl	_
+8	tegudest	tegu	NOUN	S	Case=Ela|Number=Plur	9	orphan	8.1:obl	_
 8.1	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:parataxis	Empty=8.1
 9	saatus	saatus	NOUN	S	Case=Nom|Number=Sing	5	conj	8.1:nsubj	SpaceAfter=No
 10	,	,	PUNCT	Z	_	11	punct	11:punct	_
