@@ -4854,7 +4854,7 @@
 35	nii	nii	ADV	D	_	36	advmod	36:advmod	_
 36	beibeks	beib	NOUN	S	Case=Tra|Number=Sing	37	xcomp	37:xcomp	_
 37	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	28	parataxis	28.1:parataxis	_
-38	mai	ma_ei	AUX	V	Polarity=Neg	39	aux	39:aux	ErrCompound=Yes
+38	mai	ei	AUX	V	Polarity=Neg	39	aux	39:aux	ErrCompound=Yes
 39	tia	teadma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	37	parataxis	37:parataxis	SpaceAfter=No|CorrectForm=tea
 40	,	,	PUNCT	Z	_	44	punct	44:punct	_
 41	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	44	nsubj:cop	44:nsubj	_
@@ -5080,7 +5080,7 @@
 
 # sent_id = ewtb1_100495_43
 # text = Mai usu et ta selle narusmaili selle pärast pani et ta mingit nalja teeks, ta suht tglt naudib seda et ma haiget niimoodi saan ja nii ..
-1	Mai	ma_ei	AUX	V	Polarity=Neg	2	aux	2:aux	ErrCompound=Yes
+1	Mai	ei	AUX	V	Polarity=Neg	2	aux	2:aux	ErrCompound=Yes
 2	usu	uskuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	et	et	SCONJ	J	_	9	mark	9:mark	_
 4	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
@@ -5111,7 +5111,7 @@
 
 # sent_id = ewtb1_100495_44
 # text = Mai saa nendelt küsida kuna nad ple msnnis ja üks mingi läheb täiega närvi ja teisel ple telefoni ka.
-1	Mai	ma_ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+1	Mai	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
 2	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	nendelt	see	PRON	P	Case=Abl|Number=Plur|PronType=Dem	4	obl	4:obl	_
 4	küsida	küsima	VERB	V	VerbForm=Inf	0	root	0:root	_
@@ -27883,8 +27883,8 @@
 8	käest	käsi	NOUN	S	Case=Ela|Number=Sing	10	obl	10:obl	_
 9	kinni	kinni	ADV	D	_	10	compound:prt	10:compound	_
 10	võtmas	võtma	VERB	V	Case=Ine|VerbForm=Sup|Voice=Act	4	acl:relcl	4:acl	_
-11	ei	ei	AUX	V	Polarity=Neg	10	cop	10:cop	_
-12	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	SpaceAfter=No
+11	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+12	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	SpaceAfter=No
 13	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = kom_jurgenstein_101
@@ -36188,7 +36188,7 @@
 16	luulud	luul	NOUN	S	Case=Nom|Number=Plur	17	obj	17:obj	_
 17	võtad	võtma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	7:parataxis	SpaceAfter=No
 18	,	,	PUNCT	Z	_	22	punct	22:punct	_
-19	kas	kas	ADV	D	_	20	orphan	19.1:advmod	_
+19	kas	kas	ADV	D	_	22	orphan	19.1:advmod	_
 19.1	võtad	võtma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	17:conj	_
 20	kuskilt	kuskilt	ADV	D	_	22	advmod	22:advmod	_
 21	vatsebuki	vatse_bukk	NOUN	S	Case=Gen|Number=Sing	22	nmod	22:nmod	_
