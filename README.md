@@ -1,17 +1,17 @@
 # Summary
 
-UD EWT treebank consists of different genres of new media. The treebank contains 4,493 trees, 56,399 tokens.
+UD EWT treebank consists of different genres of new media. The treebank contains 5,536 trees, 68,868 tokens.
 
 
 # Introduction
 
-Estonian Web Treebank UD v2.7 consists of three parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
+Estonian Web Treebank UD v2.8 consists of three parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
 The second part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser](https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
-The third part (v2.7) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in March 2020 (~9,400 tokens). 
+The third part (v2.8) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in 2020-2021 (~12,725 tokens). 
 
-The treebank consists of 4,493 trees, 56,399 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, but there are no other types of enhanced dependencies in this version.
+The treebank consists of 5,536 trees, 68,868 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, and the relative pronoun is attached to its antecedent with the relation 'ref' but there are no other types of enhanced dependencies in this version.
 
-The treebank has been divided  to train, test and dev parts as 34,287; 13,156 and 8,956 tokens respectively.
+The treebank has been divided  to train, test and dev parts as 46,756; 13,156 and 8,956 tokens respectively.
 
 The treebank covers unedited new media texts.
 
@@ -30,6 +30,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
+* UD v2.8: new texts added to the training corpus, annotation of numerals modified, enhanced annotation of relative pronouns added
 * UD v2.7: new texts, extra annotation for typos, better tokenization and sentence segmentation
 * UD v2.6: new internet forum texts (~15,000 tokens), 0-nodes in clauses.
 * UD v2.4: automatic conversion from CG, manual reannotation.
@@ -48,7 +49,7 @@ XPOS: converted from manual
 Features: converted from manual
 Relations: converted from manual
 Contributing: here
-Contributors: Muischnek, Kadri; Müürisep, Kaili; Puolakainen, Tiina; Särg, Dage
+Contributors: Muischnek, Kadri; Müürisep, Kaili; Puolakainen, Tiina; Särg, Dage; Eiche, Sandra
 Contact: kadri.muischnek@ut.ee, kaili.muurisep@ut.ee
 ===============================================================================
 </pre>
