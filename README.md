@@ -1,6 +1,6 @@
 # Summary
 
-UD EWT treebank consists of different genres of new media. The treebank contains 5,536 trees, 68,868 tokens.
+UD EWT treebank consists of different genres of new media. The treebank contains 5,863 trees, 72,778 tokens.
 
 
 # Introduction
@@ -9,9 +9,9 @@ Estonian Web Treebank UD v2.8 consists of three parts. Its older part (1,662 tre
 The second part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser](https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
 The third part (v2.8) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in 2020-2021 (~12,725 tokens). 
 
-The treebank consists of 5,536 trees, 68,868 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, and the relative pronoun is attached to its antecedent with the relation 'ref' but there are no other types of enhanced dependencies in this version.
+The treebank consists of 5,863 trees, 72,778 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, and the relative pronoun is attached to its antecedent with the relation 'ref' but there are no other types of enhanced dependencies in this version.
 
-The treebank has been divided  to train, test and dev parts as 46,756; 13,156 and 8,956 tokens respectively.
+The treebank has been divided  to train, test and dev parts as 49,601; 13,156 and 10,021 tokens respectively.
 
 The treebank covers unedited new media texts.
 
