@@ -1,28 +1,28 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Estonian-EWT:
-commit a30cb92553b49787ea9956fa7004e254bb456c9d
-Merge: 52b60a0 d5413c8
+commit 77c4edb79ffff93cdf47714ee23992821f4bd3bc
+Merge: de00e25 bab92ab
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 68870 of 68870 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.46444133911321.
+Size: counted 72780 of 72780 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.57488238436803.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
-Split: Did not find at least 10000 development words.
+Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 43253 out of 68870 total words have one or more features.
+Features: 45608 out of 72780 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
                TOTAL          0
 Udapi: found 0 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 68870 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 72780 words.
 Genres: found 3 out of 17 known.
 validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.176470588235294) = 0.0135746606334842
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.61267669432844) = 0.157096588289344
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.256410256410256) * (score{size}=0.620670683750072) = 0.159146329166685
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.748603660972887) * (availability=1) * (validity=1) = 0.748603660972887
-STARS = 3.5
-UD_Estonian-EWT	0.748603660972887	3.5
+(TOTAL score=0.767576478773305) * (availability=1) * (validity=1) = 0.767576478773305
+STARS = 4
+UD_Estonian-EWT	0.767576478773305	4
