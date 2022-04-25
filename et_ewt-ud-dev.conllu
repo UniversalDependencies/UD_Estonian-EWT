@@ -1106,9 +1106,9 @@
 22	Eric	Eric	PROPN	S	Case=Nom|Number=Sing	15	appos	15:appos	_
 23	Clapton	Clapton	PROPN	S	Case=Nom|Number=Sing	22	flat	22:flat	SpaceAfter=No
 24	:	:	PUNCT	Z	_	25	punct	25:punct	_
-25	Tears	Tears	PROPN	S	Case=Nom|Number=Sing	22	list	22:list	_
-26	in	in	X	S	Case=Nom|Number=Sing	25	flat:foreign	25:flat	_
-27	heaven	heaven	NOUN	S	Case=Nom|Number=Sing	25	flat:foreign	25:flat	_
+25	Tears	Tears	PROPN	S	Case=Nom|Foreign=Yes|Number=Sing	22	list	22:list	_
+26	in	in	X	S	Case=Nom|Foreign=Yes|Number=Sing	25	flat:foreign	25:flat	_
+27	heaven	heaven	NOUN	S	Case=Nom|Foreign=Yes|Number=Sing	25	flat:foreign	25:flat	_
 28	:)	:)	INTJ	E	_	6	discourse	6:discourse	_
 
 # sent_id = ewtb2_000035_11
@@ -2004,7 +2004,7 @@
 9	(	(	PUNCT	Z	_	10	punct	10:punct	SpaceAfter=No
 10	veel	veel	ADV	D	_	19	parataxis	19:parataxis	_
 11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
-12	võib	võib_olla	ADV	D	_	15	advmod	15:advmod	_
+12	võib	võib_olla	ADV	D	Typo=Yes	15	advmod	15:advmod	CorrectForm=võib-olla
 13	olla	_	X	_	_	12	goeswith	12:goeswith	_
 14	mitte	mitte	ADV	D	Polarity=Neg	15	advmod	15:advmod	_
 15	kunagi	kunagi	ADV	D	_	10	conj	10:conj	SpaceAfter=No
@@ -2362,7 +2362,7 @@
 5	mees	mees	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 6	ja	ja	CCONJ	J	_	9	cc	7.1:cc	_
 7	siis	siis	ADV	D	_	9	orphan	7.1:advmod	_
-7.1	maksan	maksma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	4:conj	Empty=7.1|Place=8
+7.1	maksan	maksma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	4:conj	Empty=7.1
 8	jälle	jälle	ADV	D	_	9	orphan	7.1:advmod	_
 9	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	conj	7.1:nsubj	_
 10	jne	jne	ADV	Y	Abbr=Yes	4	conj	4:conj	SpaceAfter=No
@@ -7401,7 +7401,7 @@
 1	koolis	kool	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
 2	räägiti	rääkima	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	Z	_	5	punct	5:punct	_
-4	meelest	meelest	ADP	K	AdpType=Post	5	compound:prt	5:compound	_
+4	meelest	meelest	ADV	D	_	5	compound:prt	5:compound	_
 5	läks	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
 
 # sent_id = hfoorum_306
@@ -7667,7 +7667,7 @@
 7	pliidil	pliit	NOUN	S	Case=Ade|Number=Sing	6	obl	6:obl	_
 8	kahe	kaks	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	9	nummod	9:nummod	_
 9	liitri	liiter	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
-10	30	30kraadine	ADJ	A	Case=Gen|Number=Sing	12	amod	12:amod	_
+10	30	30kraadine	ADJ	A	Case=Gen|Number=Sing|Typo=Yes	12	amod	12:amod	_
 11	kraadise	_	X	_	_	10	goeswith	10:goeswith	_
 12	vee	vesi	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
 13	kuumutamiseks	kuumutamine	NOUN	S	Case=Tra|Number=Sing	6	obl	6:obl	_
@@ -8982,8 +8982,8 @@
 14	rate	rate	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
 15	lisainfot	lisa_info	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
 16	(	(	PUNCT	Z	_	17	punct	17:punct	SpaceAfter=No
-17	selle	selle_aegne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	parataxis	15:parataxis	_
-18	aegaset	_	X	_	Typo=Yes	17	goeswith	17:goeswith	SpaceAfter=No|CorrectForm=aegset
+17	selle	selle_aegne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Typo=Yes	15	parataxis	15:parataxis	CorrectForm=selleaegset
+18	aegaset	_	X	_	_	17	goeswith	17:goeswith	SpaceAfter=No|CorrectForm=aegset
 19	)	)	PUNCT	Z	_	17	punct	17:punct	_
 20	..	..	PUNCT	Z	_	1	punct	1:punct	_
 
@@ -10230,7 +10230,7 @@
 # sent_id = tfoorum_300
 # text = villu tatt: ma tead ikka mõtlesin, et foorumites ei arutleta, miks kuu juustust pole
 1	villu	Villu	PROPN	S	Case=Nom|Number=Sing	7	parataxis	7:parataxis	_
-2	tatt	tatt	NOUN	S	Case=Nom|Number=Sing	1	flat	1:flat	SpaceAfter=No
+2	tatt	tatt	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	SpaceAfter=No
 3	:	:	PUNCT	Z	_	1	punct	1:punct	_
 4	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
 5	tead	teadma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	discourse	7:discourse	_
@@ -10478,7 +10478,7 @@
 35	vanem	vanem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	36	nsubj	36:nsubj	_
 36	plekkab	plekkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Style=Slng|Tense=Pres|VerbForm=Fin|Voice=Act	34	conj	34:conj	_
 37	veel	veel	ADV	D	_	38	advmod	38:advmod	_
-38	v2hem	vähem	ADV	D	Case=Nom|Number=Sing|Typo=Yes	36	advmod	36:advmod	CorrectForm=vähem
+38	v2hem	vähem	ADV	D	Typo=Yes	36	advmod	36:advmod	CorrectForm=vähem
 39	aint	aint	ADV	D	Style=Slng	44	advmod	44:advmod	_
 40	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	44	nsubj:cop	44:nsubj	_
 41	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	cop	44:cop	_
@@ -10549,8 +10549,8 @@
 3	auto	auto	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	Z	_	5	punct	5:punct	_
 5	saad	saama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj	_
-6	10k	10k	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card	5	obl	5:obl	_
-7	ga	ga	X	Y	_	6	goeswith	6:goeswith	_
+6	10k	10k	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card|Typo=Yes	5	obl	5:obl	CorrectForm=10kga
+7	ga	_	X	_	_	6	goeswith	6:goeswith	_
 8	k2tte	kätte	ADV	D	Typo=Yes	5	compound:prt	5:compound	SpaceAfter=No
 9	...	...	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -10584,8 +10584,8 @@
 15	et	et	SCONJ	J	_	17	mark	17:mark	_
 16	k2igukasti	käigu_kast	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	17	obj	17:obj	CorrectForm=käigukasti
 17	saad	saama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	csubj:cop	14:csubj	_
-18	2k	2k	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card	17	obl	17:obl	_
-19	ga	ga	X	Y	_	18	goeswith	18:goeswith	_
+18	2k	2k	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card|Typo=Yes	17	obl	17:obl	CorrectForm=2kga
+19	ga	_	X	_	_	18	goeswith	18:goeswith	_
 20	uue	uus	NOUN	S	Case=Gen|Number=Sing	17	xcomp	17:xcomp	SpaceAfter=No
 21	...	...	PUNCT	Z	_	2	punct	2:punct	_
 
@@ -10661,7 +10661,7 @@
 13	otsa	otsa	ADV	D	_	10	compound:prt	10:compound	_
 14	(	(	PUNCT	Z	_	16	punct	15.1:punct	SpaceAfter=No
 15	mõnikord	mõni_kord	ADV	D	_	16	orphan	15.1:advmod	_
-15.1	lükkad	lükkama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	10:conj	Empty=15.1|Place=16
+15.1	lükkad	lükkama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	10:conj	Empty=15.1
 16	vähem	vähem	ADV	D	_	10	conj	15.1:advmod	SpaceAfter=No
 17	)	)	PUNCT	Z	_	16	punct	15.1:punct	_
 18	osade	osa	NOUN	S	Case=Gen|Number=Plur	19	nmod	19:nmod	_
@@ -11014,16 +11014,16 @@
 32	:	:	PUNCT	Z	_	33	punct	33:punct	_
 33	stereo	stereo	NOUN	S	Case=Nom|Number=Sing	31	parataxis	31:parataxis	SpaceAfter=No
 34	,	,	PUNCT	Z	_	35	punct	35:punct	_
-35	plüüssis	plüüssis	NOUN	Y	Abbr=Yes|Case=Ine|Number=Sing	33	conj	33:conj	_
-36	u	u	NOUN	Y	Abbr=Yes	35	goeswith	35:goeswith	_
+35	plüüssis	plüüš_sisu	NOUN	Y	Case=Nom|Number=Sing|Typo=Yes	33	conj	33:conj	CorrectForm=plüüšsisu
+36	u	_	X	_	_	35	goeswith	35:goeswith	_
 
 # sent_id = tfoorum_349
 # text = SnoopDogg: 10 k -ga saab vaid kurgik2ru
 1	SnoopDogg	SnoopDogg	PROPN	S	Case=Nom|Number=Sing	6	parataxis	6:parataxis	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	10	10	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-4	k	k	NOUN	Y	Abbr=Yes|Case=Com|Number=Sing	6	obl	6:obl	_
-5	-ga	ga	X	T	_	4	goeswith	4:goeswith	_
+4	k	k	NOUN	Y	Abbr=Yes|Case=Com|Number=Sing|Typo=Yes	6	obl	6:obl	CorrectForm=k-ga
+5	-ga	_	X	_	_	4	goeswith	4:goeswith	_
 6	saab	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 7	vaid	vaid	ADV	D	_	8	advmod	8:advmod	_
 8	kurgik2ru	kurgi_käru	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	6	obj	6:obj	CorrectForm=kurgikäru
@@ -11059,8 +11059,8 @@
 # text = YYY: 10 000 tekib isegi korraliku Lada-ga probleeme.
 1	YYY	YYY	PROPN	Y	Case=Nom|Number=Sing	5	parataxis	5:parataxis	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	10	10	NUM	N	NumForm=Digit|NumType=Card	5	obl	5:obl	_
-4	000	000	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	3	goeswith	3:goeswith	_
+3	10	10000	NUM	N	NumForm=Digit|NumType=Card|Typo=Yes	5	obl	5:obl	CorrectForm=10000
+4	000	_	X	_	_	3	goeswith	3:goeswith	_
 5	tekib	tekkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	isegi	isegi	ADV	D	_	9	advmod	9:advmod	_
 7	korraliku	korralik	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
@@ -11103,8 +11103,8 @@
 8	korralikku	korralik	ADJ	A	Case=Par|Degree=Pos|Number=Sing	9	amod	9:amod	_
 9	autot	auto	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
 10	osta	ostma	VERB	V	VerbForm=Inf	6	xcomp	6:xcomp	_
-11	10	10	NUM	N	NumForm=Digit|NumType=Card	10	obl	10:obl	_
-12	000	000	NUM	N	NumForm=Digit|NumType=Card	11	goeswith	11:goeswith	_
+11	10	10000	NUM	N	NumForm=Digit|NumType=Card|Typo=Yes	10	obl	10:obl	CorrectForm=10000
+12	000	_	X	_	_	11	goeswith	11:goeswith	_
 13	eest	eest	ADP	K	AdpType=Post	11	case	11:case	_
 14	peaksid	pidama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 15	mõtlema	mõtlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
@@ -11985,9 +11985,7 @@
 35	/	/	PUNCT	Z	_	36	punct	36:punct	SpaceAfter=No
 36	käsipiduri	käsi_pidur	NOUN	S	Case=Gen|Number=Sing	34	conj	34:conj	_
 37	juures	juures	ADP	K	AdpType=Post	34	case	34:case	SpaceAfter=No
-38	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-39	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-40	.	.	PUNCT	Z	_	4	punct	4:punct	_
+38	...	...	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = tfoorum_418
 # text = mizzo: nii...mis oleks siis mõtekam, kas osta tutikas, garantiiga mingi lada või 10 aastat kasutatud audi100 ntx....
@@ -12016,10 +12014,7 @@
 22	kasutatud	kasutatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	23:acl	_
 23	audi100	audi100	PROPN	S	Case=Nom|Number=Sing	13	conj	19.1:obj	_
 24	ntx	ntx	ADV	D	Abbr=Yes	23	orphan	19.1:advmod	SpaceAfter=No
-25	.	.	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
-26	.	.	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
-27	.	.	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
-28	.	.	PUNCT	Z	_	13	punct	13:punct	_
+25	....	....	PUNCT	Z	_	13	punct	13:punct	_
 
 # sent_id = tfoorum_419
 # text = eesmärk oleks mingi pereautoks or smth...
@@ -12029,8 +12024,7 @@
 4	pereautoks	pere_auto	NOUN	S	Case=Tra|Number=Sing	0	root	0:root	_
 5	or	or	X	T	Foreign=Yes	4	dep	4:dep	_
 6	smth.	smth	X	T	Foreign=Yes	5	flat	5:flat	SpaceAfter=No
-7	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-8	.	.	PUNCT	Z	_	4	punct	4:punct	_
+7	..	..	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = tfoorum_420
 # text = ruumi peaks olema piisavalt, et taha 3 inimest ära mahutada.
@@ -12148,9 +12142,7 @@
 6	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
 7	dmx-ga	Dmx	PROPN	S	Case=Com|Number=Sing	5	obj	5:obj	_
 8	nõus	nõus	ADV	D	_	5	compound:prt	5:compound	SpaceAfter=No
-9	.	.	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
-10	.	.	PUNCT	Z	_	5	punct	5:punct	SpaceAfter=No
-11	.	.	PUNCT	Z	_	5	punct	5:punct	_
+9	...	...	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = tfoorum_428
 # text = Pigem jah mingi vana sakslane.
@@ -12381,9 +12373,7 @@
 12	(	(	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
 13	imo	imo	X	T	Abbr=Yes|Foreign=Yes	6	parataxis	6:parataxis	SpaceAfter=No
 14	)	)	PUNCT	Z	_	13	punct	13:punct	SpaceAfter=No
-15	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-16	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-17	.	.	PUNCT	Z	_	6	punct	6:punct	_
+15	...	...	PUNCT	Z	_	6	punct	6:punct	_
 
 # sent_id = tfoorum_446
 # text = giga: Sa osta miski selline, mis on toodud otse Saxast....
@@ -12399,10 +12389,7 @@
 10	toodud	tooma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl	_
 11	otse	otse	ADV	D	_	12	advmod	12:advmod	_
 12	Saxast	Saksa	PROPN	S	Case=Ela|Number=Sing	10	obl	10:obl	SpaceAfter=No
-13	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-14	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-15	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-16	.	.	PUNCT	Z	_	4	punct	4:punct	_
+13	....	....	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = tfoorum_447
 # text = Fezerk: Ei-ei kui siis pead ise järgi minema saksamaale sest olen PIIRIL näind neid autosid mis saxast tulevad 95 % neist on laksuga 50 % on tõsise plekikortsuga.
@@ -12485,9 +12472,7 @@
 11	korralikke	korralik	ADJ	A	Case=Par|Degree=Pos|Number=Plur	12	amod	12:amod	_
 12	autosid	auto	NOUN	S	Case=Par|Number=Plur	13	obj	13:obj	_
 13	toovad	tooma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl	SpaceAfter=No
-14	.	.	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
-15	.	.	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
-16	.	.	PUNCT	Z	_	3	punct	3:punct	_
+14	...	...	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = tfoorum_451
 # text = päris hakkabki keegi sealt risu või avariilist tooma..
@@ -12499,15 +12484,14 @@
 6	või	või	CCONJ	J	_	7	cc	7:cc	_
 7	avariilist	avariiline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	conj	5:conj	_
 8	tooma	tooma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	2	xcomp	2:xcomp	SpaceAfter=No
-9	.	.	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+9	..	..	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = tfoorum_452
 # text = mizzo: põmst yheks tähtsamaiks kriteerjumiks oleks, et umb 5-6 esimest aastat vähemalt peaks masin vastu ja nõuaks aint bena ja õli....
 1	mizzo	Mizzo	PROPN	S	Case=Nom|Number=Sing	6	parataxis	6:parataxis	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	põmst	põmst	ADV	D	Style=Slng	6	advmod	6:advmod	_
-4	yheks	üks	DET	P	Case=Tra|Number=Sing|PronType=Ind	6	det	6:det	_
+4	yheks	üks	DET	P	Case=Tra|Number=Sing|PronType=Ind|Typo=Yes	6	det	6:det	CorrectForm=üheks
 5	tähtsamaiks	tähtsam	ADJ	A	Case=Tra|Degree=Cmp|Number=Plur	6	amod	6:amod	_
 6	kriteerjumiks	kriteerium	NOUN	S	Case=Tra|Number=Sing|Typo=Yes	0	root	0:root	CorrectForm=kriteeriumiks
 7	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	SpaceAfter=No
@@ -12523,12 +12507,9 @@
 17	vastu	vastu	ADV	D	_	15	compound:prt	15:compound	_
 18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
 19	nõuaks	nõudma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	15:conj	_
-20	aint	aint	ADV	D	_	19	advmod	19:advmod	_
+20	aint	aint	ADV	D	Style=Slng	19	advmod	19:advmod	_
 21	bena	bena	NOUN	S	Case=Par|Number=Sing|Style=Slng	19	obj	19:obj	_
 22	ja	ja	CCONJ	J	_	23	cc	23:cc	_
 23	õli	õli	NOUN	S	Case=Par|Number=Sing	21	conj	21:conj	SpaceAfter=No
-24	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-25	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-26	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-27	.	.	PUNCT	Z	_	6	punct	6:punct	_
+24	....	....	PUNCT	Z	_	6	punct	6:punct	_
 
