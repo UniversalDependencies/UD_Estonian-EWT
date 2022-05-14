@@ -1102,7 +1102,7 @@
 12	minusse	mina	PRON	P	Case=Ill|Number=Sing|Person=1|PronType=Prs	11	obl	11:obl	_
 13	ja	ja	CCONJ	J	_	14	cc	14.1:cc	_
 14	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	conj	14.1:nsubj	_
-14.1	jään	jääma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	11:conj	Empty=14.1|Place=15
+14.1	jään	jääma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	11:conj	Empty=14.1
 15	temasse	tema	PRON	P	Case=Ill|Number=Sing|Person=3|PronType=Prs	14	orphan	14.1:obl	SpaceAfter=No
 16	.	.	PUNCT	Z	_	11	punct	11:punct	_
 
@@ -4067,7 +4067,7 @@
 19	,	,	PUNCT	Z	_	21	punct	21.1:punct	_
 20	ja	ja	CCONJ	J	_	21	cc	21.1:cc	_
 21	Sekiwaked	Sekiwake	PROPN	S	Case=Nom|Number=Plur	18	conj	21.1:nsubj	_
-21.1	põrusid	põruma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	18:conj	Empty=21.1|Place=22
+21.1	põrusid	põruma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	18:conj	Empty=21.1
 22	tegelt	tegelt	ADV	D	_	21	orphan	21.1:advmod	_
 23	ka	ka	ADV	D	_	21	orphan	21.1:advmod	SpaceAfter=No
 24	,	,	PUNCT	Z	_	29	punct	29:punct	_
@@ -4770,27 +4770,27 @@
 22	ka	ka	ADV	D	_	23	advmod	23:advmod	_
 23	Kotofuji	Kotofuji	PROPN	S	Case=Nom|Number=Sing	16	conj	23.1:nsubj	_
 23.1	tõusis	tõusma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	16:conj	Empty=23.1|Place=24
-24	1991	1991	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	25	nummod	25:nummod	_
+24	1991	1991	NUM	N	NumForm=Digit|NumType=Card	25	nummod	25:nummod	_
 25	juulis	juuli	NOUN	S	Case=Ine|Number=Sing	23	orphan	23.1:obl	_
 26	I-M13	I-M13	NOUN	Y	Abbr=Yes	27	nmod	27:nmod	_
 27	kohalt	koht	NOUN	S	Case=Abl|Number=Sing	23	orphan	23.1:obl	SpaceAfter=No
 28	;	;	PUNCT	Z	_	30	punct	30:punct	_
 29	Kiyokuni	Kiyokuni	PROPN	S	Case=Nom|Number=Sing	30	nsubj	30:nsubj	_
 30	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	12:conj	_
-31	1964	1964	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	32	nummod	32:nummod	_
+31	1964	1964	NUM	N	NumForm=Digit|NumType=Card	32	nummod	32:nummod	_
 32	jaanuaris	jaanuar	NOUN	S	Case=Ine|Number=Sing	30	obl	30:obl	_
 33	I-M13	I-M13	NOUN	Y	Abbr=Yes	34	nmod	34:nmod	_
 34	kohalt	koht	NOUN	S	Case=Abl|Number=Sing	30	obl	30:obl	_
-35	jun-yusho	jun-yusho	NOUN	S	Case=Gen|Number=Sing	30	obj	30:obj	_
+35	jun-yusho	jun-yusho	NOUN	S	Case=Gen|Foreign=Yes|Number=Sing	30	obj	30:obj	_
 36	ja	ja	CCONJ	J	_	37	cc	37:cc	_
 37	saavutas	saavutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	30:conj	_
 38	L-S	L-s	PROPN	S	Case=Nom|Number=Sing	37	obj	37:obj	SpaceAfter=No
 39	;	;	PUNCT	Z	_	41	punct	41:punct	_
 40	Tsurugamine	Tsurugamine	PROPN	S	Case=Nom|Number=Sing	41	nsubj	41:nsubj	_
 41	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	12:conj	_
-42	1956	1956	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	43	nummod	43:nummod	_
+42	1956	1956	NUM	N	NumForm=Digit|NumType=Card	43	nummod	43:nummod	_
 43	haanuaris	jaanuar	NOUN	S	Case=Ine|Number=Sing|Typo=Yes	41	obl	41:obl	CorrectForm=jaanuaris
-44	yusho-doteni	yusho-doten	NOUN	S	Case=Gen|Number=Sing	41	obj	41:obj	_
+44	yusho-doteni	yusho-doten	NOUN	S	Case=Gen|Foreign=Yes|Number=Sing	41	obj	41:obj	_
 45	ning	ning	CCONJ	J	_	48	cc	48:cc	_
 46	komusubi	komusubi	NOUN	S	Case=Gen|Number=Sing	48	nmod	48:nmod	_
 47	teisele	teine	ADJ	N	Case=All|Number=Sing|NumForm=Word|NumType=Ord	48	amod	48:amod	_
@@ -4936,18 +4936,18 @@
 12	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 13	-	-	PUNCT	Z	_	14	punct	14.1:punct	_
 14	Kotonishiki	Kotonishiki	PROPN	S	Case=Nom|Number=Sing	12	conj	14.1:nsubj	_
-14.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	12:conj	Empty=14.1|Place=15
-15	1993	1993	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
+14.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	12:conj	Empty=14.1
+15	1993	1993	NUM	N	NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
 16	jaanuaris	jaanuar	NOUN	S	Case=Ine|Number=Sing	14	orphan	14.1:obl	SpaceAfter=No
 17	,	,	PUNCT	Z	_	18	punct	18.1:punct	_
 18	Tamakasuga	Tamakasuga	PROPN	S	Case=Nom|Number=Sing	14	conj	18.1:nsubj	_
-18.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	14.1:conj	Empty=18.1|Place=19
-19	1997	1997	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	20	nummod	20:nummod	_
+18.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	14.1:conj	Empty=18.1
+19	1997	1997	NUM	N	NumForm=Digit|NumType=Card	20	nummod	20:nummod	_
 20	juulis	juuli	NOUN	S	Case=Ine|Number=Sing	18	orphan	18.1:obl	_
 21	ja	ja	CCONJ	J	_	22	cc	22.1:cc	_
 22	Tosanoumi	Tosanoumi	PROPN	S	Case=Nom|Number=Sing	14	conj	22.1:nsubj	_
-22.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	14.1:conj	Empty=22.1|Place=23
-23	1999	1999	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	24	nummod	24:nummod	_
+22.1	pääsenud	pääsema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	_	_	14.1:conj	Empty=22.1
+23	1999	1999	NUM	N	NumForm=Digit|NumType=Card	24	nummod	24:nummod	_
 24	septembris	september	NOUN	S	Case=Ine|Number=Sing	22	orphan	22.1:obl	SpaceAfter=No
 25	.	.	PUNCT	Z	_	12	punct	12:punct	_
 
@@ -7578,8 +7578,8 @@
 23	…	…	PUNCT	Z	_	28	punct	28:punct	_
 24	ja	ja	CCONJ	J	_	28	cc	28:cc	_
 25	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	26	det	26:det	_
-26	c=	c=	NOUN	Y	Abbr=Yes	28	nsubj	28:nsubj	CorrectSpaceAfter=No
-27	parameeter	parameeter	NOUN	S	Case=Nom|Number=Sing	26	goeswith	26:goeswith	_
+26	c=	c=parameeter	NOUN	Y	Case=Nom|Number=Sing|Typo=Yes	28	nsubj	28:nsubj	CorrectSpaceAfter=No|CorrectForm=c=parameeter
+27	parameeter	_	X	_	_	26	goeswith	26:goeswith	_
 28	sisaldanuks	sisaldama	VERB	V	Mood=Cnd|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	10:conj	_
 29	saidi	sait	NOUN	S	Case=Gen|Number=Sing	30	nmod	30:nmod	_
 30	cookie’t	cookie	NOUN	S	Case=Par|Number=Sing	28	obj	28:obj|33:nsubj	_
@@ -7593,8 +7593,8 @@
 38	logida	logima	VERB	V	VerbForm=Inf	33	xcomp	33:xcomp	SpaceAfter=No
 39	)	)	PUNCT	Z	_	33	punct	33:punct	_
 40	ning	ning	CCONJ	J	_	41	cc	41:cc	_
-41	r=	r=	NOUN	Y	Abbr=Yes	30	conj	30:conj	_
-42	refereri	referer	NOUN	S	Case=Par|Number=Sing	41	goeswith	41:goeswith	_
+41	r=	r=refereri	NOUN	Y	Case=Par|Number=Sing|Typo=Yes	30	conj	30:conj	CorrectForm=r=refereri
+42	refereri	_	X	_	_	41	goeswith	41:goeswith	_
 43	(	(	PUNCT	Z	_	49	punct	49:punct	SpaceAfter=No
 44	ehk	ehk	CCONJ	J	_	49	cc	49:cc	_
 45	kuidas	kuidas	ADV	D	_	49	mark	49:mark	_
@@ -8109,7 +8109,7 @@
 59	koha	koht	NOUN	S	Case=Gen|Number=Sing	57	obj	57:obj	_
 60	ja	ja	CCONJ	J	_	61	cc	61.1:cc	_
 61	Swed	Swed	PROPN	S	Case=Nom|Number=Sing	57	conj	61.1:nsubj	_
-61.1	saaks	saama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	57:conj	Empty=61.1|Place=62
+61.1	saaks	saama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	57:conj	Empty=61.1
 62	lohutuseks	lohutus	NOUN	S	Case=Tra|Number=Sing	61	orphan	61.1:xcomp	_
 63	gradient-tausta	gradient-taust	NOUN	S	Case=Gen|Number=Sing	61	orphan	61.1:obj	_
 64	…	…	PUNCT	Z	_	66	punct	66:punct	_
@@ -8482,7 +8482,7 @@
 16	näiduteatamistegevusse	näidu_teatamis_tegevus	NOUN	S	Case=Add|Number=Sing	13	obl	13:obl	_
 17	ja	ja	CCONJ	J	_	18	cc	18.1:cc	_
 18	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	13	conj	18.1:nsubj	_
-18.1	puutuvad	puutuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	13:conj	Empty=18.1|Place=19
+18.1	puutuvad	puutuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	13:conj	Empty=18.1
 19	mitte	mitte	ADV	D	Polarity=Neg	18	orphan	18.1:advmod	SpaceAfter=No
 20	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
@@ -10633,7 +10633,7 @@
 8	tegu	tegu	NOUN	S	Case=Par|Number=Sing	7	nsubj	7:nsubj	SpaceAfter=No
 9	,	,	PUNCT	Z	_	11	punct	10.1:punct	_
 10	tegudest	tegu	NOUN	S	Case=Ela|Number=Plur	11	orphan	10.1:obl	_
-10.1	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	7:conj	Empty=10.1|Place=11
+10.1	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	7:conj	Empty=10.1
 11	saatus	saatus	NOUN	S	Case=Nom|Number=Sing	7	conj	10.1:nsubj	SpaceAfter=No
 12	"	"	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
 13	.	.	PUNCT	Z	_	3	punct	3:punct	_
@@ -12030,7 +12030,7 @@
 8	!	!	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = hfoorum_705
-# text = Kahju, et mul mitte kuskil seda eksamit vaja ei lähe: /
+# text = Kahju, et mul mitte kuskil seda eksamit vaja ei lähe:/
 1	Kahju	kahju	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
 2	,	,	PUNCT	Z	_	11	punct	11:punct	_
 3	et	et	SCONJ	J	_	11	mark	11:mark	_
@@ -12042,8 +12042,7 @@
 9	vaja	vaja	ADV	D	_	11	compound:prt	11:compound	_
 10	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
 11	lähe	minema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl	1:acl	SpaceAfter=No|CorrectSpaceAfter=Yes
-12	:	:/	SYM	Z	_	1	discourse	1:discourse	_
-13	/	_	X	_	_	12	goeswith	12:goeswith	_
+12	:/	:/	SYM	Z	_	1	discourse	1:discourse	_
 
 # sent_id = hfoorum_706
 # text = Dedicated: Sõnum tuli: 80.
@@ -12715,9 +12714,8 @@
 5	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
 # sent_id = hfoorum_760
-# text = : D
-1	:	:D	SYM	Z	_	0	root	0:root	_
-2	D	_	X	_	_	1	goeswith	1:goeswith	_
+# text = :D
+1	:D	:D	SYM	Z	_	0	root	0:root	_
 
 # sent_id = hfoorum_761
 # text = Rancid: 73 punga.
@@ -14667,7 +14665,7 @@
 
 # sent_id = hfoorum_912
 # text = J a teie kuradi lapsed ka ei saa, sest nad lähevad selliste idiootsete plaanidega kaasa, ning haridus jääb saamata ja raha lähebki tuulde.
-1	J	Ja	CCONJ	J	_	8	cc	8:cc	_
+1	J	Ja	CCONJ	J	Typo=Yes	8	cc	8:cc	CorrectForm=Ja
 2	a	_	X	_	_	1	goeswith	1:goeswith	_
 3	teie	sina	PRON	P	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	nmod	5:nmod	_
 4	kuradi	kuradi	ADJ	A	Degree=Pos	5	amod	5:amod	_
@@ -15070,7 +15068,7 @@
 10	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = hfoorum_938
-# text = Sest kui ei lähe siis tekib see loll harjumus et lõpuks ei käigi koolis: /
+# text = Sest kui ei lähe siis tekib see loll harjumus et lõpuks ei käigi koolis:/
 1	Sest	sest	SCONJ	J	_	4	mark	4:mark	_
 2	kui	kui	SCONJ	J	_	4	mark	4:mark	_
 3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
@@ -15085,8 +15083,7 @@
 12	ei	ei	AUX	V	Polarity=Neg	13	aux	13:aux	_
 13	käigi	käikima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	9:acl	_
 14	koolis	kool	NOUN	S	Case=Ine|Number=Sing	13	obl	13:obl	SpaceAfter=No
-15	:	:/	SYM	Z	_	13	discourse	13:discourse	_
-16	/	_	X	_	_	15	goeswith	15:goeswith	_
+15	:/	:/	SYM	Z	_	13	discourse	13:discourse	_
 
 # sent_id = hfoorum_939
 # text = Mul oli see probleem mingi 6. klassis ...
