@@ -9746,7 +9746,7 @@
 9	objektiivne	objektiivne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	acl	3:acl	_
 10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
 11	pedantlik	pedantlik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	conj	9:conj	SpaceAfter=No|CorrectSpaceAfter=Yes
-12	(	(	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=Yes|CorrectSpaceAfter=No
+12	(	(	PUNCT	Z	_	15	punct	15:punct	CorrectSpaceAfter=No
 13	näiteid	näide	NOUN	S	Case=Par|Number=Plur	15	obj	15:obj	_
 14	ei	ei	AUX	V	Polarity=Neg	15	aux	15:aux	_
 15	toonud	tooma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	1:parataxis	SpaceAfter=No
