@@ -1,4 +1,5 @@
 # newdoc id = ewtb1_112998
+# 31.01.23 NE natuke kaili
 # sent_id = ewtb1_112998_1
 # text = täiesti nõus.
 1	täiesti	täiesti	ADV	D	_	2	advmod	2:advmod	_
@@ -15,7 +16,7 @@
 6	asi	asi	NOUN	S	Case=Nom|Number=Sing	3	nsubj:cop	3:nsubj	SpaceAfter=No
 7	,	,	PUNCT	Z	_	12	punct	12:punct	_
 8	et	et	SCONJ	J	_	12	mark	12:mark	_
-9	Soni	Soni	PROPN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	NE=B-Org
+9	Soni	Sony	PROPN	S	Case=Nom|Number=Sing|Typo=Yes	12	nsubj	12:nsubj	CorrectForm=Sony|NE=B-Org
 10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
 11	Panasonic	Panasonic	PROPN	S	Case=Nom|Number=Sing	9	conj	9:conj	NE=B-Org
 12	jäägu	jääma	VERB	V	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl	_
@@ -63,8 +64,8 @@
 7	endiselt	endiselt	ADV	D	_	9	advmod	9:advmod	_
 8	PALJU	palju	ADV	D	_	9	advmod	9:advmod	_
 9	mürasem	mürasem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	0:root	_
-10	ISO	ISO	NOUN	Y	Abbr=Yes	9	obl	9:obl	NE=B-Prod
-11	400st	400	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	10	flat	10:flat	NE=I-Prod
+10	ISO	ISO	NOUN	Y	Abbr=Yes	9	obl	9:obl	_
+11	400st	400	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	10	flat	10:flat	_
 12	alates	alates	ADP	K	AdpType=Post	10	case	10:case	_
 
 # sent_id = ewtb1_112998_5
@@ -85,7 +86,7 @@
 
 # sent_id = ewtb1_112998_6
 # text = onia fotopoe peded korrutavad nagunii selle hinna 2X.
-1	onia	Onia	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Unk
+1	onia	Onia	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Loc
 2	fotopoe	foto_pood	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
 3	peded	pede	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
 4	korrutavad	korrutama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -103,8 +104,8 @@
 4	nii	nii	ADV	D	_	5	advmod	5:advmod	_
 5	ütelda	ütlema	VERB	V	VerbForm=Inf	7	acl	7:acl	_
 6	"	"	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
-7	test	test	NOUN	S	Case=Nom|Number=Sing	3	xcomp	3:xcomp	_
-8	driveriks	driver	NOUN	S	Case=Tra|Number=Sing	7	flat	7:flat	SpaceAfter=No
+7	test	test	NOUN	S	Case=Nom|Foreign=Yes|Number=Sing	3	xcomp	3:xcomp	_
+8	driveriks	driver	NOUN	S	Case=Tra|Foreign=Yes|Number=Sing	7	flat	7:flat	SpaceAfter=No
 9	"	"	PUNCT	Z	_	7	punct	7:punct	_
 10	ja	ja	CCONJ	J	_	12	cc	12:cc	_
 11	siis	siis	ADV	D	_	12	advmod	12:advmod	_
@@ -545,8 +546,8 @@
 1	Kuulu	kuuld	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
 2	järgi	järgi	ADP	K	AdpType=Post	1	case	1:case	_
 3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
-4	Soni	Soni	PROPN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Org
-5	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	6	obl	6:obl	_
+4	Soni	Sony	PROPN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Org
+5	10	10	NUM	N	NumForm=Digit|NumType=Card	6	obl	6:obl	_
 6	megane	megane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
 7	sensor	sensor	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
 8	hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
@@ -575,7 +576,7 @@
 10	näitajate	näitaja	NOUN	S	Case=Gen|Number=Plur	23	obl	23:obl	_
 11	põhjal	põhjal	ADP	K	AdpType=Post	10	case	10:case	_
 12	praegused	praegune	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	14	amod	14:amod	_
-13	odavad	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	14	acl	14:acl	_
+13	odavad	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	14	amod	14:amod	_
 14	peeglid	peegel	NOUN	S	Case=Nom|Number=Plur	23	nsubj	23:nsubj	_
 15	istDL	istDL	PROPN	S	Case=Nom|Number=Sing	14	appos	14:appos	NE=B-Prod|SpaceAfter=No
 16	,	,	PUNCT	Z	_	17	punct	17:punct	_
@@ -595,11 +596,11 @@
 30	(	(	PUNCT	Z	_	31	punct	31:punct	SpaceAfter=No
 31	lubatakse	lubama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	29	parataxis	29:parataxis	_
 32	efektiivsust	efektiivsus	NOUN	S	Case=Par|Number=Sing	31	obj	31:obj	_
-33	3-4	3-4	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	34	nummod	34:nummod	_
+33	3-4	3-4	NUM	N	NumForm=Digit|NumType=Range	34	nummod	34:nummod	_
 34	stoppi	stopp	NOUN	S	Case=Par|Number=Sing	31	obl	31:obl	SpaceAfter=No
 35	)	)	PUNCT	Z	_	31	punct	31:punct	_
 36	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	cop	40:cop	_
-37	kolmandiku	kolmandik	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	38	obl	38:obl	_
+37	kolmandiku	kolmandik	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Frac	38	obl	38:obl	_
 38	kallimat	kallim	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	39	amod	39:amod	_
 39	hinda	hind	NOUN	S	Case=Par|Number=Sing	40	obl	40:obl	_
 40	väärt	väärt	ADV	D	_	23	conj	23:conj	SpaceAfter=No
@@ -833,7 +834,7 @@
 
 # sent_id = ewtb1_112998_42
 # text = Rebel e. 350D , kui seda silmas peeti, omab pea samasugust sensorit kui 20D/30D e. pildikvaliteedil pole mingit vahet (RAW piltide puhul vähemasti), tõsi reso on mõne pixli võrra väiksem, aga seda kah marginaalselt.
-1	Rebel	Rebel	PROPN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	NE=B-Unk
+1	Rebel	Rebel	PROPN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	NE=B-Prod
 2	e.	e	CCONJ	Y	Abbr=Yes	3	cc	3:cc	_
 3	350D	350D	PROPN	S	Case=Nom|Number=Sing	1	conj	1:conj	NE=B-Prod
 4	,	,	PUNCT	Z	_	8	punct	8:punct	_
@@ -1122,7 +1123,7 @@
 7	sest	sest	SCONJ	J	_	9	mark	9:mark	_
 8	inimene	inimene	NOUN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 9	koosneb	koosnema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	5:advcl	_
-10	99	99	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	SpaceAfter=No
+10	99	99	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	SpaceAfter=No
 11	%	%	SYM	X	_	9	obl	9:obl	_
 12	veest	vesi	NOUN	S	Case=Ela|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
 13	.	.	PUNCT	Z	_	5	punct	5:punct	_
@@ -1359,7 +1360,7 @@
 1	kunagi	kunagi	ADV	D	_	0	root	0:root	SpaceAfter=No
 2	,	,	PUNCT	Z	_	5	punct	5:punct	_
 3	vist	vist	ADV	D	_	5	advmod	5:advmod	_
-4	2	2	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
+4	2	2	NUM	N	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
 5	aastat	aasta	NOUN	S	Case=Par|Number=Sing	1	conj	1:conj	_
 6	tagasi	tagasi	ADP	K	AdpType=Post	5	case	5:case	_
 7	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
@@ -1415,7 +1416,7 @@
 7	surnu	surnu	NOUN	S	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	obj	8:obj	_
 8	külmutati	külmutama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl	4:acl	_
 9	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	10	det	10:det	_
-10	-320	-320	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+10	-320	-320	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
 11	kraadini	kraad	NOUN	S	Case=Ter|Number=Sing	8	obl	8:obl	_
 12	ja	ja	CCONJ	J	_	14	cc	14:cc	_
 13	siis	siis	ADV	D	_	14	advmod	14:advmod	_
@@ -1658,7 +1659,7 @@
 1	Ema	ema	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
 2	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	(	(	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
-4	85	85	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	1	parataxis	1:parataxis	_
+4	85	85	NUM	N	NumForm=Digit|NumType=Card	1	parataxis	1:parataxis	_
 5	+	+	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 6	)	)	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	9:punct	_
@@ -1846,7 +1847,7 @@
 3	vanakoolimees	vana_kooli_mees	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
 4	(	(	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
 5	vanuseks	vanus	NOUN	S	Case=Tra|Number=Sing	6	xcomp	6:xcomp	_
-6	30	30	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	3	parataxis	3:parataxis	SpaceAfter=No
+6	30	30	NUM	N	NumForm=Digit|NumType=Card	3	parataxis	3:parataxis	SpaceAfter=No
 7	)	)	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
 8	,	,	PUNCT	Z	_	10	punct	10:punct	_
 9	et	et	SCONJ	J	_	10	mark	10:mark	_
@@ -2196,7 +2197,7 @@
 # text = Kui aga 60% neist ei soovikski sealjuures võrdselt kulutada, siis võib öelda, et naised ei soovi kõikjal endale lihtsalt võrdseid õigusi kätte võidelda, vaid soovivad hoopis olla võrdsemast võrdsemad ehk n-ö kätel kantud.
 1	Kui	kui	SCONJ	J	_	7	mark	7:mark	_
 2	aga	aga	ADV	D	_	7	advmod	7:advmod	_
-3	60	60	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	SpaceAfter=No
+3	60	60	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	SpaceAfter=No
 4	%	%	SYM	X	_	7	nsubj	7:nsubj	_
 5	neist	see	DET	P	Case=Ela|Number=Plur|PronType=Dem	4	nmod	4:nmod	_
 6	ei	ei	AUX	V	Polarity=Neg	7	aux	7:aux	_
@@ -2257,7 +2258,7 @@
 # sent_id = ewtb2_149414_28
 # text = Esmakohtingul Väljakutsuja maksab...
 1	Esmakohtingul	esma_kohting	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
-2	Väljakutsuja	välja_kutsu=ja	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	NE=B-Per
+2	Väljakutsuja	välja_kutsu=ja	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
 3	maksab	maksma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
 5	.	.	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
@@ -2278,7 +2279,7 @@
 2	viisakas	viisakas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
 3	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
 4	enne	enne	ADV	D	_	2	advmod	2:advmod	_
-5	Daamilt	daam	NOUN	S	Case=Abl|Number=Sing	6	obl	6:obl	NE=B-Per
+5	Daamilt	daam	NOUN	S	Case=Abl|Number=Sing	6	obl	6:obl	_
 6	küsida	küsima	VERB	V	VerbForm=Inf	2	csubj:cop	2:csubj	SpaceAfter=No
 7	,	,	PUNCT	Z	_	11	punct	11:punct	_
 8	kas	kas	ADV	D	_	11	advmod	11:advmod	_
@@ -2290,7 +2291,7 @@
 # sent_id = ewtb2_149414_31
 # text = Kuid Daam peaks arvestama enne kutsele JAH vastamist et võibolla peab ta ise enda osa maksma!
 1	Kuid	kuid	CCONJ	J	_	4	cc	4:cc	_
-2	Daam	daam	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	NE=B-Per
+2	Daam	daam	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 3	peaks	pidama	AUX	V	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 4	arvestama	arvestama	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
 5	enne	enne	ADP	K	AdpType=Prep	8	case	8:case	_
@@ -2376,7 +2377,7 @@
 4	ettepaneku	ette_panek	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj	_
 5	esimesel	esimene	ADJ	N	Case=Ade|Number=Sing|NumForm=Word|NumType=Ord	6	amod	6:amod	_
 6	kohtamisel	kohtamine	NOUN	S	Case=Ade|Number=Sing	8	obl	8:obl	_
-7	pooleks	pool	NUM	N	Case=Tra|Number=Sing|NumForm=Word|NumType=Card	8	obl	8:obl	_
+7	pooleks	pooleks	ADV	D	_	8	advmod	8:advmod	_
 8	maksta	maksma	VERB	V	VerbForm=Inf	4	acl	4:acl	SpaceAfter=No
 9	,	,	PUNCT	Z	_	13	punct	13:punct	_
 10	siis	siis	ADV	D	_	13	advmod	13:advmod	_
@@ -2971,7 +2972,7 @@
 11	automaatselt	automaatselt	ADV	D	_	12	advmod	12:advmod	_
 12	nõuavad	nõudma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	6:conj	_
 13	kõige	kõik	PRON	P	Case=Gen|Number=Sing|PronType=Tot	15	nmod	15:nmod	_
-14	50/50	50	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
+14	50/50	50	NUM	N	NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
 15	poolitamist	poolita=mine	NOUN	S	Case=Par|Number=Sing	12	obj	12:obj	SpaceAfter=No
 16	,	,	PUNCT	Z	_	6	punct	6:punct	_
 17	tulemata	tulema	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	3	advcl	3:advcl	_
@@ -3281,14 +3282,14 @@
 17	,	,	PUNCT	Z	_	18	punct	18:punct	_
 18	lasi	laskma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl	_
 19	umbes	umbes	ADV	D	_	20	advmod	20:advmod	_
-20	97	97	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	21	nummod	21:nummod	SpaceAfter=No
+20	97	97	NUM	N	NumForm=Digit|NumType=Card	21	nummod	21:nummod	SpaceAfter=No
 21	%	%	SYM	X	_	25	obj	25:obj	_
 22	kõigist	kõik	DET	P	Case=Ela|Number=Plur|PronType=Tot	23	det	23:det	_
 23	kuludest	kulu	NOUN	S	Case=Ela|Number=Plur	21	nmod	21:nmod	_
 24	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	25	obl	25:obl	_
 25	kanda	kandma	VERB	V	VerbForm=Inf	18	xcomp	18:xcomp	SpaceAfter=No
 26	,	,	PUNCT	Z	_	32	punct	32:punct	_
-27	98	98	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	28	nummod	28:nummod	SpaceAfter=No
+27	98	98	NUM	N	NumForm=Digit|NumType=Card	28	nummod	28:nummod	SpaceAfter=No
 28	%	%	SYM	X	_	32	obj	32:obj	_
 29	kõigist	kõik	DET	P	Case=Ela|Number=Plur|PronType=Tot	30	det	30:det	_
 30	töödest	töö	NOUN	S	Case=Ela|Number=Plur	28	nmod	28:nmod	_
@@ -3524,6 +3525,7 @@
 4	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # newdoc id = hfoorum
+# 31.01.23 ne kontrollitud, volt ja watt lühendist rootiks, kaili
 # sent_id = hfoorum_1
 # text = treudenbauer: "Isiksus ühiskonna surve all" ehk mingeid ideid?
 1	treudenbauer	treudenbauer	PROPN	S	Case=Nom|Number=Sing	4	parataxis	4:parataxis	NE=B-Per|SpaceAfter=No
@@ -4510,7 +4512,7 @@
 
 # sent_id = hfoorum_74
 # text = mauxxx: Kuule ole tänatud
-1	mauxxx	mauxxx	NOUN	S	Case=Nom|Number=Sing	3	parataxis	3:parataxis	NE=B-Per|SpaceAfter=No
+1	mauxxx	mauxxx	PROPN	S	Case=Nom|Number=Sing	3	parataxis	3:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	Kuule	kuulma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	ole	olema	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
@@ -5364,7 +5366,7 @@
 22	sama	sama	ADV	D	_	23	advmod	23:advmod	_
 23	hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	ccomp	14:ccomp	_
 24	kui	kui	SCONJ	J	_	26	mark	26:mark	_
-25	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	NE=B-Prod
+25	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	NE=B-Org
 26	laul	laul	NOUN	S	Case=Nom|Number=Sing	23	advcl	23:advcl	SpaceAfter=No
 27	.	.	PUNCT	Z	_	14	punct	14:punct	_
 
@@ -5512,7 +5514,7 @@
 # text = Dedicated: Aitähh, Teet, see oli sinust väga tore.
 1	Dedicated	Dedicated	NOUN	S	Case=Nom|Number=Sing	11	parataxis	11:parataxis	SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	Aitähh	aitäh	INTJ	I	Typo=Yes	11	discourse	11:discourse	NE=B-Per|SpaceAfter=No|CorrectForm=Aitäh
+3	Aitähh	aitäh	INTJ	I	Typo=Yes	11	discourse	11:discourse	CorrectForm=Aitäh|NE=B-Per|SpaceAfter=No
 4	,	,	PUNCT	Z	_	5	punct	5:punct	_
 5	Teet	Teet	PROPN	S	Case=Nom|Number=Sing	11	vocative	11:vocative	NE=B-Per|SpaceAfter=No
 6	,	,	PUNCT	Z	_	5	punct	5:punct	_
@@ -6328,7 +6330,7 @@
 2	ole	olema	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 3	kinni	kinni	ADV	D	_	0	root	0:root	_
 4	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	6:nmod	_
-5	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Prod
+5	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Org
 6	teemas	teema	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
 
 # sent_id = hfoorum_217
@@ -6422,7 +6424,7 @@
 24	võinud	võima	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	29	aux	29:aux	_
 25	muidugi	muidugi	ADV	D	_	29	advmod	29:advmod	_
 26	ka	ka	ADV	D	_	29	advmod	29:advmod	_
-27	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	28	nmod	28:nmod	NE=B-Prod
+27	Smilersi	Smilers	PROPN	S	Case=Gen|Number=Sing	28	nmod	28:nmod	NE=B-Org
 28	teemal	teema	NOUN	S	Case=Ade|Number=Sing	29	obl	29:obl	_
 29	kirjutada	kirjutama	VERB	V	VerbForm=Inf	18	parataxis	18:parataxis	_
 30	vms.	vms	ADV	Y	Abbr=Yes	29	conj	29:conj	SpaceAfter=No
@@ -6525,7 +6527,7 @@
 2	Killah	Killah	PROPN	S	Case=Nom|Number=Sing	1	flat	1:flat	NE=I-Per|SpaceAfter=No
 3	:	:	PUNCT	Z	_	1	punct	1:punct	_
 4	Tallinna	Tallinn	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Org
-5	Side	side	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
+5	Side	Side	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
 6	Kool	Kool	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=I-Org
 7	TR-23	TR-23	SYM	Y	Abbr=Yes	6	flat	6:flat	NE=I-Org
 
@@ -6613,25 +6615,25 @@
 
 # sent_id = hfoorum_239
 # text = 24 oli vaja vähemalt
-1	24	24	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	2	nsubj	2:nsubj	_
+1	24	24	NUM	N	NumForm=Digit|NumType=Card	2	obl	2:obl	_
 2	oli	olema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	vaja	vaja	ADV	D	_	2	compound:prt	2:compound	_
 4	vähemalt	vähemalt	ADV	D	_	2	advmod	2:advmod	_
 
 # sent_id = hfoorum_240
 # text = 10 punni tunnistuse eest + eesti keel 8 + inglise keel 8 + matemaatika 0 = 26
-1	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
+1	10	10	NUM	N	NumForm=Digit|NumType=Card	2	nummod	2:nummod	_
 2	punni	punn	NOUN	S	Case=Par|Number=Sing	0	root	0:root	_
 3	tunnistuse	tunnistus	NOUN	S	Case=Gen|Number=Sing	2	obl	2:obl	_
 4	eest	eest	ADP	K	AdpType=Post	3	case	3:case	_
 5	+	+	PUNCT	Z	_	7	punct	7:punct	_
 6	eesti	eesti	ADJ	G	_	7	amod	7:amod	_
 7	keel	keel	NOUN	S	Case=Nom|Number=Sing	2	conj	2:conj	_
-8	8	8	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+8	8	8	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 9	+	+	PUNCT	Z	_	11	punct	11:punct	_
 10	inglise	inglise	ADJ	G	_	11	amod	11:amod	_
 11	keel	keel	NOUN	S	Case=Nom|Number=Sing	2	conj	2:conj	_
-12	8	8	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+12	8	8	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
 13	+	+	PUNCT	Z	_	14	punct	14:punct	_
 14	matemaatika	matemaatika	NOUN	S	Case=Nom|Number=Sing	2	conj	2:conj	_
 15	0	0	NUM	N	NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
@@ -6729,7 +6731,7 @@
 15	alati	alati	ADV	D	_	16	advmod	16:advmod	_
 16	parimad	parim	ADJ	A	Case=Nom|Degree=Sup|Number=Plur	11	conj	11:conj	SpaceAfter=No
 17	,	,	PUNCT	Z	_	18	punct	18:punct	_
-18	jalkas	jalka	NOUN	S	Case=Ine|Number=Sing	16	conj	16:conj	_
+18	jalkas	jalka	NOUN	S	Case=Ine|Number=Sing|Style=Slng	16	conj	16:conj	_
 19	jne	jne	ADV	Y	Abbr=Yes	18	conj	18:conj	_
 
 # sent_id = hfoorum_249
@@ -6771,7 +6773,7 @@
 # text = balduran: üldgümnaasiumist annab milleski halvem olla ...
 1	balduran	balduran	PROPN	S	Case=Nom|Number=Sing	4	parataxis	4:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	üldgümnaasiumist	üld_gümnaasium	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	NE=B-Org
+3	üldgümnaasiumist	Üld_gümnaasium	PROPN	S	Case=Ela|Number=Sing	4	obl	4:obl	NE=B-Org
 4	annab	andma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	milleski	miski	PRON	P	Case=Ine|Number=Sing|PronType=Ind	4	obl	4:obl	_
 6	halvem	halvem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	4	xcomp	4:xcomp	_
@@ -6803,7 +6805,7 @@
 3	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
 4	läen	minema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	GAGi	GAG	PROPN	Y	Abbr=Yes|Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Org
-6	10-klassi	10-klass	NOUN	S	Case=Add|Number=Sing	4	obj	4:obj	ErrCompound=Yes
+6	10-klassi	10-klass	NOUN	S	Case=Add|Number=Sing	4	obl	4:obl	ErrCompound=Yes
 
 # sent_id = hfoorum_258
 # text = Posti0: Sama siin
@@ -6859,7 +6861,7 @@
 6	10ndasse	10.	NUM	N	Case=Ill|Number=Sing|NumForm=Digit|NumType=Ord	5	obl	5:obl	_
 7	kust	kust	ADV	D	_	8	mark	8:mark	_
 8	tean	teadma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	6:acl	_
-9	31	31	NUM	N	Case=Par|Number=Sing|NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+9	31	31	NUM	N	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
 10	inimest	inimene	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
 11	38-st	38	NUM	N	Case=Ela|Number=Sing|NumForm=Digit|NumType=Card	10	obl	10:obl	_
 12	praktiliselt	praktiliselt	ADV	D	_	13	advmod	13:advmod	_
@@ -6867,14 +6869,14 @@
 14	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	nmod	15:nmod	_
 15	klass	klass	NOUN	S	Case=Nom|Number=Sing	20	nsubj	20:nsubj	_
 16	(	(	PUNCT	Z	_	18	punct	18:punct	SpaceAfter=No
-17	36	36	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	18	nummod	18:nummod	_
+17	36	36	NUM	N	NumForm=Digit|NumType=Card	18	nummod	18:nummod	_
 18	õpilast	õpilane	NOUN	S	Case=Par|Number=Sing	15	parataxis	15:parataxis	SpaceAfter=No
 19	)	)	PUNCT	Z	_	18	punct	18:punct	_
 20	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
 21	edasi	edasi	ADV	D	_	20	compound:prt	20:compound	SpaceAfter=No
 22	,	,	PUNCT	Z	_	26	punct	26:punct	_
 23	aga	aga	CCONJ	J	_	26	cc	26:cc	_
-24	3	3	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	25	nummod	25:nummod	_
+24	3	3	NUM	N	NumForm=Digit|NumType=Card	25	nummod	25:nummod	_
 25	tykki	tykk	NOUN	S	Case=Par|Number=Sing|Typo=Yes	26	nsubj	26:nsubj	CorrectForm=tükki
 26	läevad	minema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	20:conj	_
 27	ära	ära	ADV	D	_	26	compound:prt	26:compound	_
@@ -7127,7 +7129,7 @@
 # sent_id = hfoorum_284
 # text = mingi 7.-8. klass hirmutati, et need füüsika ja keemia hakkavad ikka vääääga rasked olema.
 1	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	3	det	3:det	_
-2	7.-8.	7.-8.	ADJ	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord	3	amod	3:amod	_
+2	7.-8.	7.-8.	ADJ	N	NumForm=Digit|NumType=Ord	3	amod	3:amod	_
 3	klass	klass	NOUN	S	Case=Nom|Number=Sing	4	obl	4:obl	_
 4	hirmutati	hirmutama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	Z	_	11	punct	11:punct	_
@@ -7146,7 +7148,7 @@
 # sent_id = hfoorum_285
 # text = siis 9. klassis hirmutatakse keskkooliga.
 1	siis	siis	ADV	D	_	4	advmod	4:advmod	_
-2	9.	9.	ADJ	N	Case=Ine|Number=Sing|NumForm=Digit|NumType=Ord	3	amod	3:amod	_
+2	9.	9.	ADJ	N	NumForm=Digit|NumType=Ord	3	amod	3:amod	_
 3	klassis	klass	NOUN	S	Case=Ine|Number=Sing	4	obl	4:obl	_
 4	hirmutatakse	hirmutama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
 5	keskkooliga	kesk_kool	NOUN	S	Case=Com|Number=Sing	4	obl	4:obl	SpaceAfter=No
@@ -7183,7 +7185,7 @@
 12	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 13	mata	mata	NOUN	S	Case=Nom|Number=Sing	15	nsubj:cop	15:nsubj	_
 14	alati	alati	ADV	D	_	15	advmod	15:advmod	_
-15	5	5	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	23	advcl	23:advcl	_
+15	5	5	NUM	N	NumForm=Digit|NumType=Card	23	advcl	23:advcl	_
 16	olnud	olema	AUX	V	Tense=Past|VerbForm=Part|Voice=Act	15	cop	15:cop	_
 17	siis	siis	ADV	D	_	23	advmod	23:advmod	_
 18	miks	miks	ADV	D	_	23	mark	23:mark	_
@@ -7244,7 +7246,7 @@
 1	Läbukana	Läbu_kana	PROPN	S	Case=Nom|Number=Sing	6	parataxis	6:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	6:nsubj	_
-4	westholmi	West_holm	PROPN	S	Case=Add|Number=Sing	6	obl	6:obl	NE=B-Org
+4	westholmi	Westholm	PROPN	S	Case=Add|Number=Sing	6	obl	6:obl	NE=B-Org
 5	ei	ei	AUX	V	Polarity=Neg	6	aux	6:aux	_
 6	tulegi	tulema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 7	?	?	PUNCT	Z	_	6	punct	6:punct	_
@@ -7281,9 +7283,9 @@
 # text = Shadow_angel: matat on 6 ja keemiat pidi ka rohkem olema ju
 1	Shadow_angel	Shadow_angel	PROPN	S	Case=Nom|Number=Sing	5	parataxis	5:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	matat	mata	NOUN	S	Case=Par|Number=Sing	5	nsubj:cop	5:nsubj	_
+3	matat	mata	NOUN	S	Case=Par|Number=Sing|Style=Slng	5	nsubj:cop	5:nsubj	_
 4	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-5	6	6	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	0	root	0:root	_
+5	6	6	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	_
 6	ja	ja	CCONJ	J	_	10	cc	10:cc	_
 7	keemiat	keemia	NOUN	S	Case=Par|Number=Sing	10	obl	10:obl	_
 8	pidi	pidama	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
@@ -7308,14 +7310,14 @@
 # text = dgk: matat oli meil üheksandski 6+ ja keemiat 2 muidu, kas te ka pidite mingile "lepingule" oma nime ja isikukoodi ja allkirja panema?
 1	dgk	dgk	PROPN	Y	Case=Nom|Number=Sing	6	parataxis	6:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	matat	mata	NOUN	S	Case=Par|Number=Sing	6	nsubj:cop	6:nsubj	_
+3	matat	mata	NOUN	S	Case=Par|Number=Sing|Style=Slng	6	nsubj:cop	6:nsubj	_
 4	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 5	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	6	obl	6:obl	_
 6	üheksandski	üheksas	ADJ	N	Case=Ine|Number=Sing|NumForm=Word|NumType=Ord|Typo=Yes	0	root	0:root	CorrectForm=üheksandaski
-7	6+	6+	NUM	N	Number=Sing|NumForm=Digit|NumType=Card	6	obl	6:obl	_
+7	6+	6+	NUM	N	NumForm=Digit|NumType=Card	6	obl	6:obl	_
 8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
 9	keemiat	keemia	NOUN	S	Case=Par|Number=Sing	10	nsubj:cop	10:nsubj	_
-10	2	2	NUM	N	Number=Sing|NumForm=Digit|NumType=Card	6	conj	6:conj	_
+10	2	2	NUM	N	NumForm=Digit|NumType=Card	6	conj	6:conj	_
 11	muidu	muidu	ADV	D	_	10	advmod	10:advmod	SpaceAfter=No
 12	,	,	PUNCT	Z	_	27	punct	27:punct	_
 13	kas	kas	ADV	D	_	27	advmod	27:advmod	_
@@ -7359,13 +7361,13 @@
 1	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
 2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
 3	nädalas	nädal	NOUN	S	Case=Ine|Number=Sing	1	obl	1:obl	_
-4	5	5	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
-5	matet	mate	NOUN	S	Case=Par|Number=Sing	1	nsubj:cop	1:nsubj	SpaceAfter=No
+4	5	5	NUM	N	NumForm=Digit|NumType=Card	5	nummod	5:nummod	_
+5	matet	mate	NOUN	S	Case=Par|Number=Sing|Style=Slng	1	nsubj:cop	1:nsubj	SpaceAfter=No
 6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	3	3	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
+7	3	3	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	_
 8	füüsikat	füüsika	NOUN	S	Case=Par|Number=Sing	5	conj	5:conj	_
 9	ja	ja	CCONJ	J	_	11	cc	11:cc	_
-10	3	3	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+10	3	3	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
 11	keemiat	keemia	NOUN	S	Case=Par|Number=Sing	5	conj	5:conj	_
 
 # sent_id = hfoorum_303
@@ -7384,7 +7386,7 @@
 5	kuidas	kuidas	ADV	D	_	6	mark	6:mark	_
 6	leida	leidma	VERB	V	VerbForm=Inf	0	root	0:root	_
 7	arvust	arv	NOUN	S	Case=Ela|Number=Sing	6	obl	6:obl	_
-8	256	256	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+8	256	256	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 9	näiteks	näiteks	ADV	D	_	10	advmod	10:advmod	_
 10	binaararv	binaar_arv	NOUN	S	Case=Nom|Number=Sing	6	obj	6:obj	_
 11	ja	ja	CCONJ	J	_	16	cc	14.1:cc	_
@@ -7446,7 +7448,7 @@
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	Näiteks	näiteks	ADV	D	_	4	advmod	4:advmod	_
 4	arv	arv	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
-5	2	2	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+5	2	2	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 6	Jagad	jagama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
 7	2-ga	2	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card	6	obl	6:obl	_
 8	kogu	kogu	DET	A	PronType=Tot	9	det	9:det	_
@@ -7493,7 +7495,7 @@
 # sent_id = hfoorum_313
 # text = Kuna 1 ei jagu 2-ga siis vastus 0 ja jääkl 1.
 1	Kuna	kuna	SCONJ	J	_	4	mark	4:mark	_
-2	1	1	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	_
+2	1	1	NUM	N	NumForm=Digit|NumType=Card	4	nsubj	4:nsubj	_
 3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
 4	jagu	jagu	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	8:advcl	_
 5	2-ga	2	NUM	N	Case=Com|Number=Sing|NumForm=Digit|NumType=Card	4	obl	4:obl	_
@@ -7511,7 +7513,7 @@
 2	,	,	PUNCT	Z	_	8	punct	8:punct	_
 3	et	et	SCONJ	J	_	8	mark	8:mark	_
 4	arv	arv	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
-5	105	105	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+5	105	105	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 6	kahendsüsteemis	kahend_süsteem	NOUN	S	Case=Ine|Number=Sing	4	nmod	4:nmod	_
 7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 8	1101001	1101001	NUM	N	NumForm=Digit|NumType=Card	1	ccomp	1:ccomp	SpaceAfter=No
@@ -7543,7 +7545,7 @@
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	11	11	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	klassi	klass	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-5	füssa	füssa	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
+5	füssa	füssa	NOUN	S	Case=Gen|Number=Sing|Style=Slng	7	nmod	7:nmod	_
 6	paar	paar	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
 7	ül	ül	NOUN	S	Abbr=Yes|Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
 8	.	.	PUNCT	Z	_	7	punct	7:punct	_
@@ -7619,16 +7621,16 @@
 # sent_id = hfoorum_322
 # text = elektripliidi võimsus on 1600W ja pinge on 220 V.
 1	elektripliidi	elektri_pliit	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
-2	võimsus	võimsus	NOUN	S	Case=Nom|Number=Sing	4	nsubj:cop	4:nsubj	_
-3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
-4	1600	1600	NUM	N	NumForm=Digit|NumType=Card	0	root	0:root	SpaceAfter=No|CorrectSpaceAfter=Yes
-5	W	W	PROPN	Y	Abbr=Yes	4	flat	4:flat	_
-6	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-7	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	9	nsubj:cop	9:nsubj	_
-8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
-9	220	220	NUM	N	NumForm=Digit|NumType=Card	4	conj	4:conj	_
-10	V	V	PROPN	Y	Abbr=Yes	9	flat	9:flat	SpaceAfter=No
-11	.	.	PUNCT	Z	_	9	punct	9:punct	_
+2	võimsus	võimsus	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	1600	1600	NUM	N	NumForm=Digit|NumType=Card	5	nummod	5:nummod	SpaceAfter=No|CorrectSpaceAfter=Yes
+5	W	W	NOUN	Y	Abbr=Yes	0	root	0:root	_
+6	ja	ja	CCONJ	J	_	10	cc	10:cc	_
+7	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
+8	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
+9	220	220	NUM	N	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+10	V	V	NOUN	Y	Abbr=Yes	5	conj	5:conj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = hfoorum_323
 # text = a) kui palju soojusenergiat eraldub pliidil 15 min. jooksul
@@ -7729,14 +7731,14 @@
 9	näitab	näitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
 10	vooluallika	voolu_allikas	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
 11	pingeks	pinge	NOUN	S	Case=Tra|Number=Sing	9	xcomp	9:xcomp	_
-12	50	50	NUM	N	NumType=Card	9	obl	9:obl	SpaceAfter=No|CorrectSpaceAfter=Yes
-13	v	V	PROPN	Y	Abbr=Yes|Typo=Yes	12	flat	12:flat	CorrectForm=V
+12	50	50	NUM	N	NumForm=Digit|NumType=Card	13	nummod	13:nummod	SpaceAfter=No|CorrectSpaceAfter=Yes
+13	v	V	NOUN	Y	Abbr=Yes|Typo=Yes	9	obl	9:obl	CorrectForm=V
 14	ja	ja	CCONJ	J	_	18	cc	18:cc	_
 15	lampide	lamp	NOUN	S	Case=Gen|Number=Plur	16	nmod	16:nmod	_
 16	võimsused	võimsus	NOUN	S	Case=Nom|Number=Plur	18	nsubj:cop	18:nsubj	_
 17	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	18:cop	_
-18	100	100	NUM	N	NumForm=Digit|NumType=Card	9	conj	9:conj	SpaceAfter=No|CorrectSpaceAfter=Yes
-19	W	W	PROPN	Y	Abbr=Yes	18	flat	18:flat	_
+18	100	100	NUM	N	NumForm=Digit|NumType=Card	19	nummod	19:nummod	SpaceAfter=No|CorrectSpaceAfter=Yes
+19	W	W	NOUN	Y	Abbr=Yes	9	conj	9:conj	_
 
 # sent_id = hfoorum_329
 # text = Ülesanne.
@@ -7757,15 +7759,15 @@
 10	m	m	NOUN	Y	Abbr=Yes	11	obl	11:obl	_
 11	pikkust	pikkune	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	conj	7:conj	_
 12	terastraati	teras_traat	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	SpaceAfter=No
-13	,	,	PUNCT	Z	_	20	punct	20:punct	_
-14	kui	kui	SCONJ	J	_	20	mark	20:mark	_
-15	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	20	nsubj:cop	20:nsubj	_
+13	,	,	PUNCT	Z	_	21	punct	21:punct	_
+14	kui	kui	SCONJ	J	_	21	mark	21:mark	_
+15	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	21	nsubj:cop	21:nsubj	_
 16	traadi	traat	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
 17	otste	ots	NOUN	S	Case=Gen|Number=Plur	15	nmod	15:nmod	_
 18	vahel	vahel	ADP	K	AdpType=Post	17	case	17:case	_
-19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	20:cop	_
-20	100	100	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	advcl	4:advcl	SpaceAfter=No
-21	v	V	PROPN	Y	Abbr=Yes	20	flat	20:flat	SpaceAfter=No
+19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
+20	100	100	NUM	N	NumForm=Digit|NumType=Card	21	nummod	21:nummod	SpaceAfter=No
+21	v	V	NOUN	Y	Abbr=Yes	4	advcl	4:advcl	SpaceAfter=No
 22	?	?	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = hfoorum_331
@@ -8710,7 +8712,7 @@
 6	tegu	tegu	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj	NE=I-Prod|SpaceAfter=No
 7	,	,	PUNCT	Z	_	9	punct	9:punct	NE=I-Prod
 8	tegudest	tegu	NOUN	S	Case=Ela|Number=Plur	9	orphan	8.1:obl	NE=I-Prod
-8.1	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:parataxis	Empty=8.1
+8.1	sünnib	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	2:parataxis	NE=I-Prod|Empty=8.1
 9	saatus	saatus	NOUN	S	Case=Nom|Number=Sing	5	conj	8.1:nsubj	NE=I-Prod|SpaceAfter=No
 10	,	,	PUNCT	Z	_	11	punct	11:punct	_
 11	teemal	teema	NOUN	S	Case=Ade|Number=Sing	5	parataxis	5:parataxis	_
@@ -8819,7 +8821,7 @@
 4	teemad	teema	NOUN	S	Case=Nom|Number=Plur	8	nsubj:cop	8:nsubj	_
 5	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 6	ka	ka	ADV	D	_	8	advmod	8:advmod	_
-7	epli	epl	PROPN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=B-Unk
+7	epli	epl	PROPN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	NE=B-Prod
 8	kodukal	kodukas	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	_
 
 # sent_id = hfoorum_409
@@ -8829,11 +8831,11 @@
 3	ntx	ntx	NOUN	S	Abbr=Yes	0	root	0:root	_
 4	btw	btw	ADV	D	Abbr=Yes	3	advmod	3:advmod	SpaceAfter=No
 5	:	:	PUNCT	Z	_	6	punct	6:punct	_
-6	muffike	muffike	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	NE=B-Per|SpaceAfter=No
+6	muffike	muffike	PROPN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	NE=B-Per|SpaceAfter=No
 7	,	,	PUNCT	Z	_	11	punct	11:punct	_
 8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	11:nsubj	_
 9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
-10	rate	rate	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	NE=B-Prod
+10	rate	rate	PROPN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	NE=B-Prod
 11	keel	keel	NOUN	S	Case=Nom|Number=Sing	3	conj	3:conj	SpaceAfter=No
 12	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -8979,7 +8981,7 @@
 11	foorumist	foorum	NOUN	S	Case=Ela|Number=Sing	12	nmod	12:nmod	_
 12	bännitu	bännitu	NOUN	S	Case=Gen|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
 13	,	,	PUNCT	Z	_	14	punct	14:punct	_
-14	rate	rate	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Unk
+14	rate	rate	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Prod
 15	lisainfot	lisa_info	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
 16	(	(	PUNCT	Z	_	17	punct	17:punct	SpaceAfter=No
 17	selle	selle_aegne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Typo=Yes	15	parataxis	15:parataxis	CorrectForm=selleaegset
@@ -9044,7 +9046,7 @@
 # text = tindiplekk: Minupuhl käiks kriitika liigselt ühsikonna pihta, ja ka žürii kuulub ühsikonna hulka.
 1	tindiplekk	tindi_plekk	PROPN	S	Case=Nom|Number=Sing	4	parataxis	4:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	Minupuhl	minu_puhul	NOUN	S	Typo=Yes	4	obl	4:obl	ErrCompound=Yes|CorrectForm=minupuhul
+3	Minupuhl	minu_puhul	NOUN	S	Typo=Yes	4	obl	4:obl	CorrectForm=minupuhul|ErrCompound=Yes
 4	käiks	käima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	kriitika	kriitika	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 6	liigselt	liigselt	ADV	D	_	4	advmod	4:advmod	_
@@ -10314,7 +10316,7 @@
 # sent_id = tfoorum_304
 # text = Ning odav auto ei ole alati pask auto....
 1	Ning	ning	CCONJ	J	_	8	cc	8:cc	_
-2	odav	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	3:acl	_
+2	odav	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
 3	auto	auto	NOUN	S	Case=Nom|Number=Sing	8	nsubj:cop	8:nsubj	_
 4	ei	ei	AUX	V	Polarity=Neg	8	aux	8:aux	_
 5	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
@@ -10423,18 +10425,18 @@
 # text = SnoopDogg: 3 liitrine mazda 10 kiloga???
 1	SnoopDogg	SnoopDogg	PROPN	S	Case=Nom|Number=Sing	5	parataxis	5:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	3	3	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	4	obl	4:obl	_
+3	3	3	NUM	N	NumForm=Digit|NumType=Card	4	obl	4:obl	_
 4	liitrine	liitrine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
 5	mazda	Mazda	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Prod
-6	10	10	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+6	10	10	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 7	kiloga	kilo	NOUN	S	Case=Com|Number=Sing	5	obl	5:obl	SpaceAfter=No
 8	???	???	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = tfoorum_313
 # text = jajahh... sure.... kindlasti...
-1	jajahh	jajahh	ADV	Y	Abbr=Yes	5	discourse	5:discourse	SpaceAfter=No
+1	jajahh	jajahh	ADV	I	_	5	discourse	5:discourse	SpaceAfter=No
 2	...	...	PUNCT	Z	_	3	punct	3:punct	_
-3	sure	sure	ADV	Y	Foreign=Yes	5	discourse	5:discourse	SpaceAfter=No
+3	sure	sure	X	T	Foreign=Yes	5	discourse	5:discourse	SpaceAfter=No
 4	....	....	PUNCT	Z	_	5	punct	5:punct	_
 5	kindlasti	kindlasti	ADV	D	_	0	root	0:root	SpaceAfter=No
 6	...	...	PUNCT	Z	_	5	punct	5:punct	_
@@ -10446,7 +10448,7 @@
 3	MAZDA	Mazda	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Prod
 4	929	929	NUM	N	NumForm=Digit|NumType=Card	3	flat	3:flat	NE=I-Prod
 5	2.2	2.2	NUM	N	NumForm=Digit|NumType=Card	3	flat	3:flat	NE=I-Prod
-6	I	I	ADJ	N	Case=Nom|Number=Sing|NumForm=Roman|NumType=Ord	3	flat	3:flat	NE=I-Prod
+6	I	I	ADJ	N	NumForm=Roman|NumType=Ord	3	flat	3:flat	NE=I-Prod
 7	-88	-88	NOUN	S	Number=Sing	3	flat	3:flat	_
 8	el.aknad	el_aken	NOUN	S	Case=Nom|Number=Plur	3	parataxis	3:parataxis	SpaceAfter=No
 9	,	,	PUNCT	Z	_	10	punct	10:punct	_
@@ -10498,7 +10500,7 @@
 7	pakuti	pakkuma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	4:conj	_
 8	14 000	14 000	NUM	N	NumForm=Digit|NumType=Card	7	obl	7:obl	_
 9	mingi	mingi	DET	P	Case=Gen|Number=Sing|PronType=Ind	12	det	12:det	_
-10	85	85	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
+10	85	85	NUM	N	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
 11	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
 12	oma	oma	PRON	P	Case=Par|Number=Sing|Poss=Yes|PronType=Prs	7	obj	7:obj	SpaceAfter=No
 13	.	.	PUNCT	Z	_	4	punct	4:punct	_
@@ -10507,7 +10509,7 @@
 # text = Kui t2pselt 10 tonni eest normaalselt autot tahad sii ziguli.
 1	Kui	kui	SCONJ	J	_	8	mark	8:mark	_
 2	t2pselt	täpselt	ADV	D	Typo=Yes	3	advmod	3:advmod	CorrectForm=täpselt
-3	10	10	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+3	10	10	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	tonni	tonn	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
 5	eest	eest	ADP	K	AdpType=Post	4	case	4:case	_
 6	normaalselt	normaalselt	ADV	D	_	8	advmod	8:advmod	_
@@ -10648,7 +10650,7 @@
 # text = ostad auto 10 kilo eest, järgmise paari aastaga lükkad paarkümmend kilo otsa (mõnikord vähem) osade vahetuseks.
 1	ostad	ostma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	auto	auto	NOUN	S	Case=Gen|Number=Sing	1	obj	1:obj	_
-3	10	10	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+3	10	10	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	kilo	kilo	NOUN	S	Case=Gen|Number=Sing	1	obl	1:obl	_
 5	eest	eest	ADP	K	AdpType=Post	4	case	4:case	SpaceAfter=No
 6	,	,	PUNCT	Z	_	10	punct	10:punct	_
@@ -10680,14 +10682,14 @@
 8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
 9	siis	siis	ADV	D	_	10	advmod	10:advmod	_
 10	parandame	parandama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
-11	10	10	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	12	nummod	12:nummod	_
+11	10	10	NUM	N	NumForm=Digit|NumType=Card	12	nummod	12:nummod	_
 12	kilo	kilo	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
 13	eest	eest	ADP	K	AdpType=Post	12	case	12:case	SpaceAfter=No
 14	,	,	PUNCT	Z	_	16	punct	16:punct	_
 15	et	et	SCONJ	J	_	16	mark	16:mark	_
 16	sõita	sõitma	VERB	V	VerbForm=Inf	10	advcl	10:advcl	_
 17	saaks	saama	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	16:aux	_
-18	1	1	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	19	nummod	19:nummod	_
+18	1	1	NUM	N	NumForm=Digit|NumType=Card	19	nummod	19:nummod	_
 19	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	16	obl	16:obl	SpaceAfter=No
 20	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
@@ -11040,7 +11042,7 @@
 8	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
 9	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	nii	nii	ADV	D	_	11	advmod	11:advmod	_
-11	odav	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	csubj:cop	4:csubj	SpaceAfter=No
+11	odav	odav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	csubj:cop	4:csubj	SpaceAfter=No
 12	!	!	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = tfoorum_351
@@ -11049,7 +11051,7 @@
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	ei	ei	AUX	V	Polarity=Neg	6	aux	6:aux	_
 4	peagi	pidama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
-5	ferrarit	Ferrari	NOUN	S	Case=Par|Number=Sing	6	obj	6:obj	NE=B-Prod
+5	ferrarit	Ferrari	PROPN	S	Case=Par|Number=Sing	6	obj	6:obj	NE=B-Prod
 6	ostma	ostma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
 7	endale	ise	PRON	P	Case=All|Number=Sing|PronType=Prs|Reflex=Yes	6	obl	6:obl	_
 8	ju	ju	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
@@ -11093,7 +11095,7 @@
 
 # sent_id = tfoorum_355
 # text = nike666: Kõik, kes tahavad endale korralikku autot osta 10 000 eest peaksid mõtlema sapikale.
-1	nike666	nike666	PROPN	S	Case=Nom|Number=Sing	15	parataxis	15:parataxis	NE=B-Prod|SpaceAfter=No
+1	nike666	nike666	PROPN	S	Case=Nom|Number=Sing	15	parataxis	15:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	Kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	15	nsubj	6:nsubj|15:nsubj	SpaceAfter=No
 4	,	,	PUNCT	Z	_	6	punct	6:punct	_
@@ -11108,7 +11110,7 @@
 13	eest	eest	ADP	K	AdpType=Post	11	case	11:case	_
 14	peaksid	pidama	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
 15	mõtlema	mõtlema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	0	root	0:root	_
-16	sapikale	sapikas	NOUN	S	Case=All|Number=Sing|Style=Slng	15	obl	15:obl	NE=B-Prod|SpaceAfter=No
+16	sapikale	sapikas	PROPN	S	Case=All|Number=Sing|Style=Slng	15	obl	15:obl	NE=B-Prod|SpaceAfter=No
 17	.	.	PUNCT	Z	_	15	punct	15:punct	_
 
 # sent_id = tfoorum_356
@@ -11180,7 +11182,7 @@
 4	kaheuksega	kahe_uks	NOUN	S	Case=Com|Number=Sing	7	nmod	7:nmod	ErrCompound=Yes
 5	vana	vana	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
 6	3-se	3	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Typo=Yes	7	amod	7:amod	CorrectForm=kolmese
-7	bemmi	bemm	NOUN	S	Case=Gen|Number=Sing|Style=Slng	2	obj	2:obj	NE=B-Prod
+7	bemmi	bemm	PROPN	S	Case=Gen|Number=Sing|Style=Slng	2	obj	2:obj	NE=B-Prod
 8	ka	ka	ADV	D	_	2	advmod	2:advmod	_
 9	juba	juba	ADV	D	_	2	advmod	2:advmod	_
 10	kätte	kätte	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
@@ -11880,7 +11882,7 @@
 6	tal	tema	PRON	P	Case=Ade|Number=Sing|Person=3|PronType=Prs	0	root	0:root	_
 7	ei	ei	AUX	V	Polarity=Neg	6	aux	6:aux	_
 8	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
-9	nike	Nike	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=B-Prod
+9	nike	Nike	PROPN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	NE=B-Org
 10	m2rki	märk	NOUN	S	Case=Nom|Number=Sing|Typo=Yes	6	nsubj:cop	6:nsubj	SpaceAfter=No
 11	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
 12	.	.	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
@@ -11890,7 +11892,7 @@
 # text = d2xz: nike märk ikka põhiline ju
 1	d2xz	Däxz	PROPN	S	Case=Nom|Number=Sing	6	parataxis	6:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	nike	Nike	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Prod
+3	nike	Nike	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=B-Org
 4	märk	märk	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
 5	ikka	ikka	ADV	D	_	6	advmod	6:advmod	_
 6	põhiline	põhiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
@@ -11933,7 +11935,7 @@
 20	saavutamiseks	saavutamine	NOUN	S	Case=Tra|Number=Sing	22	obl	22:obl	_
 21	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	cop	22:cop	_
 22	puudu	puudu	ADV	D	_	4	conj	4:conj	_
-23	nike	Nike	PROPN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	NE=B-Prod
+23	nike	Nike	PROPN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	NE=B-Org
 24	m2rkk	märkk	NOUN	S	Case=Gen|Number=Sing|Typo=Yes	22	nsubj:cop	22:nsubj	CorrectForm=märk|SpaceAfter=No
 25	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
 26	.	.	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
@@ -12009,7 +12011,7 @@
 18	lada	Lada	PROPN	S	Case=Nom|Number=Sing	13	obj	13:obj	NE=B-Prod
 19	või	või	CCONJ	J	_	23	cc	19.1:cc	_
 19.1	osta	ostma	VERB	V	VerbForm=Inf	_	_	13:conj	Empty=19.1
-20	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	21	nummod	21:nummod	_
+20	10	10	NUM	N	NumForm=Digit|NumType=Card	21	nummod	21:nummod	_
 21	aastat	aasta	NOUN	S	Case=Par|Number=Sing	22	obl	22:obl	_
 22	kasutatud	kasutatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	23:acl	_
 23	audi100	audi100	PROPN	S	Case=Nom|Number=Sing	13	conj	19.1:obj	NE=B-Prod
@@ -12171,7 +12173,7 @@
 1	Njah	njah	INTJ	I	_	4	discourse	4:discourse	_
 2	igaljuhul	igal_juht	NOUN	S	Case=Ade|Number=Sing|Typo=Yes	4	obl	4:obl	CorrectForm="igal juhul"
 3	mitte	mitte	ADV	D	Polarity=Neg	4	advmod	4:advmod	_
-4	laadat	laat	NOUN	S	Case=Par|Number=Sing	0	root	0:root	NE=B-Prod
+4	laadat	Lada	PROPN	S	Case=Par|Number=Sing|Typo=Yes	0	root	0:root	CorrectForm="Ladat"|NE=B-Prod
 
 # sent_id = tfoorum_431
 # text = pocket: audi 100, või B4 oleksid vägagi head valikud, mersut julgeksin ka soovitada - kuid siis jääb siiski oht, et oled endise takso omanik
@@ -12220,7 +12222,7 @@
 # text = qyux: 6000 euro eest saad sellise ilusa masina.
 1	qyux	Qyux	PROPN	S	Case=Nom|Number=Sing	6	parataxis	6:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	6000	6000	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+3	6000	6000	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
 4	euro	euro	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
 5	eest	eest	ADP	K	AdpType=Post	4	case	4:case	_
 6	saad	saama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -12257,7 +12259,7 @@
 3	tekib	tekkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	parmeasse	parem	ADJ	A	Case=Ill|Degree=Pos|Number=Sing|Typo=Yes	3	obl	3:obl	CorrectForm=paremasse
 5	freimi	freim	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	_
-6	2	2	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+6	2	2	NUM	N	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 7	nuppu	nupp	NOUN	S	Case=Par|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
 8	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -12498,7 +12500,7 @@
 8	,	,	PUNCT	Z	_	15	punct	15:punct	_
 9	et	et	SCONJ	J	_	15	mark	15:mark	_
 10	umb	umb	ADV	D	Abbr=Yes	11	advmod	11:advmod	_
-11	5-6	5-6	NUM	N	NumForm=Digit|NumType=Card	13	nummod	13:nummod	_
+11	5-6	5-6	NUM	N	NumForm=Digit|NumType=Range	13	nummod	13:nummod	_
 12	esimest	esimene	ADJ	N	Case=Par|Number=Sing|NumForm=Word|NumType=Ord	13	amod	13:amod	_
 13	aastat	aasta	NOUN	S	Case=Par|Number=Sing	15	obl	15:obl	_
 14	vähemalt	vähemalt	ADV	D	_	15	advmod	15:advmod	_

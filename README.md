@@ -5,7 +5,7 @@ UD EWT treebank consists of different genres of new media. The treebank contains
 
 # Introduction
 
-Estonian Web Treebank UD v2.11 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
+Estonian Web Treebank UD v2.12 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
 The second part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser](https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
 The third part (v2.8) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in 2020-2021 (~12,725 tokens).
 The fourth part consists of different forum texts (reddit, military, gardening, cars). In addition to standard ud annotation, annotation of named entiites has been added to MISC-field (NE=B-Type or NE=I-Type, there TYPE stands for PER (person), ORG (organisation), LOC (location), GEP (geopolitical name), EVENT (events), PROD (product), MUU (other) or UNK (unknown)).
@@ -28,9 +28,11 @@ This work was financed by the [National Programme for Estonian Language Technolo
 * Kadri Muischnek, Kaili Müürisep, Tiina Puolakainen, Eleri Aedmaa, Riin Kirt, Dage Särg.  2014.
   [Estonian Dependency Treebank and its annotation scheme](http://tlt13.sfs.uni-tuebingen.de/tlt13-proceedings.pdf). In: Proceedings of the 13th Workshop on Treebanks and Linguistic Theories (TLT13), pp. 285–291, ISBN 978-3-9809183-9-8, Tübingen, Germany.
 * Kadri Muischnek, Kaili Müürisep, Dage Särg. 2019. [CG Roots of UD Treebank of Estonian Web Language](http://www.ep.liu.se/ecp/168/006/ecp19168006.pdf). In Proceedings of the NoDaLiDa 2019 Workshop on Constraint Grammar-Methods, Tools and Applications, pp. 23-26, Turku, Finland
+* Kadri Muischnek, Kaili Müürisep. 2023. [Named Entity layer in Estonian UD treebanks](https://openreview.net/pdf?id=mo1p--2vbq). In Proceedings NoDaLiDa 2023.
  
 # Changelog
 
+* UD v2.12: many errors fixed in the NE annotation, minor other fixes.
 * UD v2.11: new texts added to the training corpus (12,358 tokens), added annotation for named entities.
 * UD v2.10: new texts added to the training corpus (5,472 words, 462 trees), fixed errors of goeswith annotation.
 * UD v2.8: new texts added to the training corpus, annotation of numerals modified, enhanced annotation of relative pronouns added
