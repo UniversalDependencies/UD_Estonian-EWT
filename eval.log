@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Estonian-EWT:
-commit cb16e75e62554ccbe1c8fa06f11a6043d2177668
-Merge: 48766a3 bb0f3cf
+commit 151a3ff61f94c1e426dbe5d12656923a992e3b71
+Merge: cf58338 dc204b6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 90586 of 90586 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.01259935144468.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 56800 out of 90586 total words have one or more features.
+Features: 56813 out of 90586 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 90586 words.
 Genres: found 3 out of 17 known.
-validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-dev.conllu
 *** PASSED ***
-validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-test.conllu
 *** PASSED ***
-validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang et --max-err=10 UD_Estonian-EWT/et_ewt-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
