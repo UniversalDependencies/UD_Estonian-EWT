@@ -1,18 +1,18 @@
 # Summary
 
-UD EWT treebank consists of different genres of new media. The treebank contains 7,190 trees, 90,608 tokens.
+UD EWT treebank consists of different genres of new media. The treebank contains 7,190 trees, 90,585 tokens.
 
 
 # Introduction
 
-Estonian Web Treebank UD v2.12 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
+Estonian Web Treebank UD v2.13 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
 The second part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser](https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
 The third part (v2.8) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in 2020-2021 (~12,725 tokens).
 The fourth part consists of different forum texts (reddit, military, gardening, cars). In addition to standard ud annotation, annotation of named entiites has been added to MISC-field (NE=B-Type or NE=I-Type, there TYPE stands for PER (person), ORG (organisation), LOC (location), GEP (geopolitical name), EVENT (events), PROD (product), MUU (other) or UNK (unknown)).
 
-The treebank consists of 6,190 trees, 90,608 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, and the relative pronoun is attached to its antecedent with the relation 'ref' but there are no other types of enhanced dependencies in this version.
+The treebank consists of 7,190 trees, 90,585 tokens. As for enhanced dependencies, the empty nodes for missing predicates have been added, and the relative pronoun is attached to its antecedent with the relation 'ref', also other enhanced dependencies have been added since version 2.13
 
-The treebank has been divided  to train, test and dev parts as 67,431; 13,153 and 10,002 tokens respectively.
+The treebank has been divided  to train, test and dev parts as 67,431; 13,152 and 10,002 tokens respectively.
 
 The treebank covers unedited new media texts.
 
@@ -32,6 +32,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
+* UD v2.13: enhannced dependencies added
 * UD v2.12: many errors fixed in the NE annotation, minor other fixes.
 * UD v2.11: new texts added to the training corpus (12,358 tokens), added annotation for named entities.
 * UD v2.10: new texts added to the training corpus (5,472 words, 462 trees), fixed errors of goeswith annotation.
