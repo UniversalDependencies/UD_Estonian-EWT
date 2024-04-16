@@ -6159,7 +6159,7 @@
 # sent_id = hfoorum_206
 # text = (im sorry)
 1	(	(	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	im	im	X	T	Foreign=Yes|Typo=Yes	0	root	0:root	CorrectForm="I'm"|OrigLang=en
+2	im	im	X	T	Foreign=Yes	0	root	0:root	OrigLang=en
 3	sorry	sorry	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=en|SpaceAfter=No
 4	)	)	PUNCT	Z	_	2	punct	2:punct	_
 
