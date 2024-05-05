@@ -1235,17 +1235,17 @@
 4	muusikast	muusika	NOUN	S	Case=Ela|Number=Sing	2	nmod	2:nmod	_
 5	-	-	PUNCT	Z	_	7	punct	7:punct	_
 6	"	"	PUNCT	Z	_	7	punct	7:punct	NE=B-Prod|SpaceAfter=No
-7	Un	Un	NOUN	S	Foreign=Yes	4	appos	4:appos	NE=I-Prod
-8	bel	bel	NOUN	S	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod
-9	di	di	NOUN	S	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod
-10	vedremo	vedremo	NOUN	S	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod|SpaceAfter=No
+7	Un	Un	X	T	Foreign=Yes	4	appos	4:appos	NE=I-Prod|OrigLang=it
+8	bel	bel	X	T	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod|OrigLang=it
+9	di	di	X	T	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod|OrigLang=it
+10	vedremo	vedremo	X	T	Foreign=Yes	7	flat:foreign	7:flat	NE=I-Prod|OrigLang=it|SpaceAfter=No
 11	"	"	PUNCT	Z	_	7	punct	7:punct	NE=I-Prod
 12	või	või	CCONJ	J	_	14	cc	14:cc	_
 13	"	"	PUNCT	Z	_	14	punct	14:punct	NE=B-Prod|SpaceAfter=No
-14	E	E	NOUN	S	Foreign=Yes	7	conj	4:appos|7:conj	NE=I-Prod
-15	lucevan	lucevan	NOUN	S	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod
-16	le	le	NOUN	S	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod
-17	stelle	stelle	NOUN	S	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod|SpaceAfter=No
+14	E	E	X	T	Foreign=Yes	7	conj	4:appos|7:conj	NE=I-Prod|OrigLang=it
+15	lucevan	lucevan	X	T	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod|OrigLang=it
+16	le	le	X	T	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod|OrigLang=it
+17	stelle	stelle	X	T	Foreign=Yes	14	flat:foreign	14:flat	NE=I-Prod|OrigLang=it|SpaceAfter=No
 18	"	"	PUNCT	Z	_	14	punct	14:punct	NE=I-Prod
 19	...	...	PUNCT	Z	_	2	punct	2:punct	_
 
@@ -6159,8 +6159,8 @@
 # sent_id = hfoorum_206
 # text = (im sorry)
 1	(	(	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
-2	im	im	X	S	_	0	root	0:root	_
-3	sorry	sorry	X	S	_	2	flat:foreign	2:flat	SpaceAfter=No
+2	im	im	X	T	Foreign=Yes	0	root	0:root	OrigLang=en
+3	sorry	sorry	X	T	Foreign=Yes	2	flat:foreign	2:flat	OrigLang=en|SpaceAfter=No
 4	)	)	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = hfoorum_207
@@ -6602,11 +6602,11 @@
 8	klassist	klass	NOUN	S	Case=Ela|Number=Sing	6	obl	6:obl	_
 9	peale	peale	ADP	K	AdpType=Post	8	case	8:case	_
 10	(	(	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
-11	tought	tought	X	S	_	8	parataxis	8:parataxis	_
-12	u	u	X	Y	_	11	flat:foreign	11:flat	_
-13	might	might	X	S	_	11	flat:foreign	11:flat	_
-14	wanna	wanna	X	S	_	11	flat:foreign	11:flat	_
-15	know	know	X	S	_	11	flat:foreign	11:flat	SpaceAfter=No
+11	tought	tought	X	T	Foreign=Yes	8	parataxis	8:parataxis	OrigLang=en
+12	u	u	X	T	Foreign=Yes	11	flat:foreign	11:flat	OrigLang=en
+13	might	might	X	T	Foreign=Yes	11	flat:foreign	11:flat	OrigLang=en
+14	wanna	wanna	X	T	Foreign=Yes	11	flat:foreign	11:flat	OrigLang=en
+15	know	know	X	T	Foreign=Yes	11	flat:foreign	11:flat	OrigLang=en|SpaceAfter=No
 16	)	)	PUNCT	Z	_	11	punct	11:punct	_
 17	aga	aga	CCONJ	J	_	18	cc	18:cc	_
 18	sain	saama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	0:root|6:conj	_
