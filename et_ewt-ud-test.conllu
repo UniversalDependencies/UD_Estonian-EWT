@@ -14882,7 +14882,7 @@
 31	ütleb	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	27:advcl	SpaceAfter=No
 32	,	,	PUNCT	Z	_	35	punct	35:punct	_
 33	ära	ära	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	35:aux	_
-34	kooli	kool	NOUN	S	Case=Gen|Number=Sing	35	obj	35:obj	_
+34	kooli	kool	NOUN	S	Case=Add|Number=Sing	35	obl	35:obl	_
 35	mine	minema	VERB	V	Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	31	ccomp	31:ccomp	_
 36	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	39:nsubj	_
 37	minemata	minema	VERB	V	Case=Abe|VerbForm=Sup|Voice=Act	39	advcl	39:advcl	_
@@ -15526,9 +15526,9 @@
 17	kindlasti	kindlasti	ADV	D	_	19	advmod	19:advmod	_
 18	ka	ka	ADV	D	_	19	advmod	19:advmod	_
 19	suvetööl	suve_töö	NOUN	S	Case=Ade|Number=Sing	15	conj	0:root|15:conj	_
-20	uurimistööga	uurimis_töö	NOUN	S	Case=Com|Number=Sing	19	nmod	19:nmod|23:obj	SpaceAfter=No
+20	uurimistööga	uurimis_töö	NOUN	S	Case=Com|Number=Sing	19	nmod	19:nmod|26:obj|28:obj	SpaceAfter=No
 21	,	,	PUNCT	Z	_	23	punct	23:punct	_
-22	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	23	obj	20:ref	_
+22	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	26	obj	20:ref	_
 23	tuleks	tulema	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	20:acl	_
 24	siis	siis	ADV	D	_	23	advmod	23:advmod	_
 25	suvel	suvi	NOUN	S	Case=Ade|Number=Sing	26	obl	26:obl	_
