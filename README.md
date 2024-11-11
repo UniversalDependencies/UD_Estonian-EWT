@@ -32,7 +32,8 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
-* UD v2.13: enhanced dependencies added
+* UD v2.15: annotation of foreign words and determiners fixed, agent adverbials have special tag obl:agent.
+* UD v2.13: enhanced dependencies added.
 * UD v2.12: many errors fixed in the NE annotation, minor other fixes.
 * UD v2.11: new texts added to the training corpus (12,358 tokens), added annotation for named entities.
 * UD v2.10: new texts added to the training corpus (5,472 words, 462 trees), fixed errors of goeswith annotation.
