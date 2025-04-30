@@ -5,7 +5,7 @@ UD EWT treebank consists of different genres of new media. The treebank contains
 
 # Introduction
 
-Estonian Web Treebank UD v2.13 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
+Estonian Web Treebank UD v2.16 consists of four parts. Its older part (1,662 trees, v2.4) is a converted version of the Estonian Web Treebank (EWT), originally annotated in the Constraint Grammar (CG) annotation scheme, and consisting of different genres of new media. 
 The second part (1,495 trees, v2.6) consists of internet forum texts and has been annotated using [Stanza parser](https://stanfordnlp.github.io/stanza/), followed by manual post-editing.
 The third part (v2.8) has been annnotated in the same way. It consists of users' feedbacks to news about Covid19 pandemic in 2020-2021 (~12,725 tokens).
 The fourth part consists of different forum texts (reddit, military, gardening, cars). In addition to standard ud annotation, annotation of named entiites has been added to MISC-field (NE=B-Type or NE=I-Type, there TYPE stands for PER (person), ORG (organisation), LOC (location), GEP (geopolitical name), EVENT (events), PROD (product), MUU (other) or UNK (unknown)).
@@ -32,6 +32,7 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
+* UD v2.16: ExtPos feature added, a few minor fixes
 * UD v2.15: annotation of foreign words and determiners fixed, agent adverbials have special tag obl:agent.
 * UD v2.13: enhanced dependencies added.
 * UD v2.12: many errors fixed in the NE annotation, minor other fixes.
