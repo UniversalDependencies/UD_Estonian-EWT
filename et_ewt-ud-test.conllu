@@ -719,7 +719,7 @@
 1	Jürgen	Jürgen	PROPN	S	Case=Nom|Number=Sing	0	root	0:root	NE=B-Per
 2	Zoppil	Zopp	PROPN	S	Case=Ade|Number=Sing	1	flat	1:flat	NE=I-Per
 3	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
-4	enam	enam	ADV	D	_	6	advmod	6:advmod	_
+4	enam	enam	ADV	D	ExtPos=ADV	6	advmod	6:advmod	_
 5	kui	kui	SCONJ	J	_	4	fixed	4:fixed	_
 6	miljoni	miljon	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	7	nummod	7:nummod	_
 7	dollari	dollar	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
@@ -2296,8 +2296,8 @@
 58	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	56	nsubj:cop	56:nsubj|64:nsubj:cop	_
 59	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	64	nsubj:cop	58:ref	_
 60	keskkooli	kesk_kool	NOUN	S	Case=Gen|Number=Sing	63	nmod	63:nmod	_
-61	ajaloo-füüsika-mis	aja_loo-füüsika-mis	NOUN	S	Case=Nom|Number=Sing	63	nmod	63:nmod	_
-62	iganes	iganes	ADV	D	_	61	fixed	61:fixed	_
+61	ajaloo-füüsika-mis	aja_loo-füüsika-mis-iganes	ADV	D	Typo=Yes	63	advmod	63:advmod	CorrectForm=ajaloo-füüsika-mis-iganes
+62	iganes	_	X	_	_	61	goeswith	61:goeswith	_
 63	õpikus	õpik	NOUN	S	Case=Ine|Number=Sing	64	obl	64:obl	_
 64	kirjas	kirjas	ADV	D	_	58	acl:relcl	58:acl	SpaceAfter=No
 65	.	.	PUNCT	Z	_	2	punct	2:punct	_
@@ -2474,7 +2474,7 @@
 7	jaoks	jaoks	ADP	K	AdpType=Post	6	case	6:case	_
 8	ümber	ümber	ADV	D	_	9	advmod	9:advmod	_
 9	defineerida	defineerima	VERB	V	VerbForm=Inf	0	root	0:root	_
-10	kuidas	kuidas	ADV	D	_	9	advmod	9:advmod	_
+10	kuidas	kuidas	ADV	D	ExtPos=ADV	9	advmod	9:advmod	_
 11	iganes	iganes	ADV	D	_	10	fixed	10:fixed	SpaceAfter=No
 12	.	.	PUNCT	Z	_	9	punct	9:punct	_
 
@@ -5157,7 +5157,7 @@
 3	järgmine	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	4:amod	_
 4	basho	basho	NOUN	S	Case=Nom|Foreign=Yes|Number=Sing	5	obl	5:obl	OrigLang=ja
 5	loksub	loksuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
-6	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	5	nsubj	5:nsubj	_
+6	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	5	nsubj	5:nsubj	_
 7	jälle	jälle	ADV	D	_	5	advmod	5:advmod	_
 8	paika	paik	NOUN	S	Case=Add|Number=Sing	5	obl	5:obl	_
 9	-	-	PUNCT	Z	_	10	punct	10:punct	_
@@ -5370,7 +5370,7 @@
 
 # sent_id = ewtb2_079135_83
 # text = Nii et siis kuhu Toyonoshima tuleb?
-1	Nii	nii	ADV	D	_	6	advmod	6:advmod	_
+1	Nii	nii	ADV	D	ExtPos=SCONJ	6	mark	6:mark	_
 2	et	et	SCONJ	J	_	1	fixed	1:fixed	_
 3	siis	siis	ADV	D	_	6	advmod	6:advmod	_
 4	kuhu	kuhu	ADV	D	_	6	mark	6:mark	_
@@ -5818,7 +5818,7 @@
 7	–	-	PUNCT	Z	_	9	punct	9:punct	_
 8	ning	ning	CCONJ	J	_	9	cc	9:cc	_
 9	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	4	conj	4:conj|24:parataxis	_
-10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+10	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
 11	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	12	det	12:det	_
 12	nädal	nädal	NOUN	S	Case=Nom|Number=Sing	9	obl	9:obl	_
 13	ees	ees	ADV	D	_	9	advmod	9:advmod	_
@@ -7706,7 +7706,7 @@
 92	ka	ka	ADV	D	_	93	advmod	93:advmod	_
 93	Optimi	Optim	PROPN	S	Case=Gen|Number=Sing	89	acl	89:acl	NE=B-Org
 94	taga	taga	ADP	K	AdpType=Post	93	case	93:case	_
-95	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	93	cop	93:cop	_
+95	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	93	cop	93:cop	_
 96	PR-	PR	NOUN	Y	Abbr=Yes|Hyph=Yes	99	nmod	99:nmod	_
 97	ja	ja	CCONJ	J	_	98	cc	98:cc	_
 98	ajakirjandusteaduskonna	aja_kirjandus_teaduskond	NOUN	S	Case=Gen|Number=Sing	96	conj	96:conj|99:nmod	_
@@ -7903,7 +7903,7 @@
 4	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obj	2:obj|34:nsubj:cop	SpaceAfter=No
 5	,	,	PUNCT	Z	_	12	punct	12:punct	_
 6	et	et	SCONJ	J	_	12	mark	12:mark	_
-7	millal	millal	ADV	D	_	11	advmod	11:advmod	_
+7	millal	millal	ADV	D	ExtPos=ADV	11	advmod	11:advmod	_
 8	iganes	iganes	ADV	D	_	7	fixed	7:fixed	_
 9	energia.ee	energia.ee	NOUN	Y	Abbr=Yes	10	nmod	10:nmod	NE=B-Prod
 10	veebi	veeb	NOUN	S	Case=Add|Number=Sing	11	obl	11:obl	_
@@ -8513,7 +8513,7 @@
 24	kõrval	kõrval	ADV	D	_	25	advmod	25:advmod	_
 25	käia	käima	VERB	V	VerbForm=Inf	15	conj	10:ccomp|15:conj	_
 26	välja	välja	ADV	D	_	25	compound:prt	25:compound	_
-27	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	25	obj	25:obj	_
+27	mida	mis	PRON	P	Case=Par|ExtPos=PRON|Number=Sing|PronType=Int,Rel	25	obj	25:obj	_
 28	tahes	tahes	ADV	D	_	27	fixed	27:fixed	_
 29	head	hea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	27	amod	27:amod	_
 30	ja	ja	CCONJ	J	_	31	cc	31:cc	_
@@ -9315,7 +9315,7 @@
 13	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_
 14	kõik	kõik	PRON	P	Case=Nom|Number=Plur|PronType=Tot	12	obj	12:obj|20:nsubj	_
 15	irja	kiri	NOUN	S	Case=Add|Number=Sing|Typo=Yes	12	obl	12:obl	CorrectForm=kirja
-16	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	20	nsubj	14:ref	_
+16	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	20	nsubj	14:ref	_
 17	esimese	esimene	ADJ	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Ord	18	amod	18:amod	_
 18	hoobiga	hoop	NOUN	S	Case=Com|Number=Sing	20	obl	20:obl	_
 19	pähe	pea	NOUN	S	Case=Add|Number=Sing	20	obl	20:obl	_
@@ -10342,8 +10342,8 @@
 37	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	cop	38:cop	_
 38	siinsamas	siin_samas	ADV	D	_	32	csubj	32:csubj	SpaceAfter=No
 39	,	,	PUNCT	Z	_	42	punct	42:punct	_
-40	à	à	ADV	T	_	42	dep	42:dep	Lang=fr
-41	la	la	ADV	T	_	40	fixed	40:fixed	Lang=fr
+40	à	à	ADV	T	_	42	advmod	42:advmod	OrigLang=fr
+41	la	la	ADV	T	_	40	flat	40:flat	OrigLang=fr
 42	Peer	Peer	PROPN	S	Case=Nom|Number=Sing	20	parataxis	20:parataxis	NE=B-Per
 43	Gynt	Gynt	PROPN	S	Case=Nom|Number=Sing	42	flat	42:flat	NE=I-Per
 44	ja	ja	CCONJ	J	_	45	cc	45:cc	_
@@ -11313,7 +11313,7 @@
 
 # sent_id = hfoorum_655
 # text = Nii et kannatust, jõuate enne veel ilusti ära unustada, mis teemal sai kirjand kirjutatud või et mis asjad need eksamid üldse on.
-1	Nii	nii	ADV	D	_	3	advmod	3:advmod	_
+1	Nii	nii	ADV	D	ExtPos=SCONJ	3	mark	3:mark	_
 2	et	et	SCONJ	J	_	1	fixed	1:fixed	_
 3	kannatust	kannatus	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	Z	_	5	punct	5:punct	_
@@ -11600,7 +11600,7 @@
 # text = Sinna on nii kui nii kõige olulisem sisse pandud.
 1	Sinna	sinna	ADV	D	_	9	advmod	9:advmod	_
 2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
-3	nii	nii	ADV	D	_	9	advmod	9:advmod	_
+3	nii	nii	ADV	D	ExtPos=ADV	9	advmod	9:advmod	_
 4	kui	kui	SCONJ	J	_	3	fixed	3:fixed	_
 5	nii	nii	ADV	D	_	3	fixed	3:fixed	_
 6	kõige	kõige	ADV	D	_	7	advmod	7:advmod	_
@@ -13346,7 +13346,7 @@
 7	ongi	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
 8	esmaspäevad	esmas_päev	NOUN	S	Case=Nom|Number=Plur	0	root	0:root	SpaceAfter=No
 9	,	,	PUNCT	Z	_	12	punct	12:punct	_
-10	nii	nii	ADV	D	_	12	advmod	12:advmod	_
+10	nii	nii	ADV	D	ExtPos=SCONJ	12	mark	12:mark	_
 11	et	et	SCONJ	J	_	10	fixed	10:fixed	_
 12	võib	võima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	0:root|8:conj	_
 13	ju	ju	ADV	D	_	12	advmod	12:advmod	_
@@ -14638,7 +14638,7 @@
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
 3	Jaah	jaah	INTJ	I	_	8	discourse	8:discourse	SpaceAfter=No
 4	,	,	PUNCT	Z	_	8	punct	8:punct	_
-5	vaat	vaat	ADV	D	_	8	advmod	8:advmod	_
+5	vaat	vaat	ADV	D	ExtPos=SCONJ	8	mark	8:mark	_
 6	kui	kui	SCONJ	J	_	5	fixed	5:fixed	_
 7	vanemateks	vanem	NOUN	S	Case=Tra|Number=Plur	8	xcomp	8:xcomp	_
 8	saate	saama	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	18:advcl	_
@@ -15593,7 +15593,7 @@
 12	gümnaasiumi	gümnaasium	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
 13	lõpueksam	lõpu_eksam	NOUN	S	Case=Nom|Number=Sing	8	advcl	8:advcl	SpaceAfter=No
 14	,	,	PUNCT	Z	_	21	punct	21:punct	_
-15	nii	nii	ADV	D	_	21	advmod	21:advmod	_
+15	nii	nii	ADV	D	ExtPos=SCONJ	21	mark	21:mark	_
 16	et	et	SCONJ	J	_	15	fixed	15:fixed	_
 17	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	21:aux	_
 18	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	19	det	19:det	_
