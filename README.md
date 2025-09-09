@@ -50,6 +50,7 @@ Data source: semi-automatic
 Data available since: UD v2.4
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: blog web social
 Lemmas: converted from manual
 UPOS: converted from manual
