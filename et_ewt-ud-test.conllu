@@ -1622,7 +1622,7 @@
 2	joomise	joomine	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
 3	keeld	keeld	NOUN	S	Case=Nom|Number=Sing	10	obj	10:obj	_
 4	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
-5	Jumala	Jumal	PROPN	S	Case=Gen|Number=Sing	10	obl	10:obl	NE=B-Per
+5	Jumala	Jumal	PROPN	S	Case=Gen|Number=Sing	10	obl:agent	10:obl:agent	NE=B-Per
 6	poolt	poolt	ADP	K	AdpType=Post	5	case	5:case	_
 7	selgesõnaliselt	selge_sõnaliselt	ADV	D	_	10	advmod	10:advmod	_
 8	Vanas	Vana	PROPN	S	Case=Ine|Number=Sing	9	nmod	9:nmod	NE=B-Prod
@@ -2898,7 +2898,7 @@
 7	sellele	see	PRON	P	Case=All|Number=Sing|PronType=Dem	3	obl	3:obl	SpaceAfter=No
 8	,	,	PUNCT	Z	_	17	punct	17:punct	_
 9	et	et	SCONJ	J	_	17	mark	17:mark	_
-10	sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	obl	12:obl	_
+10	sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	12	obl:agent	12:obl:agent	_
 11	poolt	poolt	ADP	K	AdpType=Post	10	case	10:case	_
 12	usutud	usu=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	13:acl	_
 13	vandenõud	vande_nõu	NOUN	S	Case=Nom|Number=Plur	17	nsubj:cop	17:nsubj	_
