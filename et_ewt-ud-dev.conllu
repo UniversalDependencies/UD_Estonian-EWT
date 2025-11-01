@@ -6881,7 +6881,7 @@
 27	ära	ära	ADV	D	_	26	compound:prt	26:compound	_
 28	paraleeli	paralleel	NOUN	S	Case=Add|Number=Sing|Typo=Yes	26	obl	26:obl	SpaceAfter=No|CorrectForm=paralleeli
 29	,	,	PUNCT	Z	_	30	punct	30:punct	_
-30	nende	tema	PRON	P	Case=Gen|Number=Plur|PronType=Dem	26	conj	0:root|26:conj	_
+30	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	26	conj	0:root|26:conj	_
 31	seas	seas	ADP	K	AdpType=Post	30	case	30:case	_
 32	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	34	det	34:det	_
 33	hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	34	amod	34:amod	_
@@ -8646,7 +8646,7 @@
 # text = Olid sinagi nende hulgas?
 1	Olid	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
 2	sinagi	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj:cop	3:nsubj	_
-3	nende	tema	PRON	P	Case=Gen|Number=Plur|PronType=Dem	0	root	0:root	_
+3	nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	0	root	0:root	_
 4	hulgas	hulgas	ADP	K	AdpType=Post	3	case	3:case	SpaceAfter=No
 5	?	?	PUNCT	Z	_	3	punct	3:punct	_
 
@@ -9259,7 +9259,7 @@
 1	küll	küll	ADV	D	_	5	advmod	5:advmod	_
 2	aga	aga	ADV	D	_	5	advmod	5:advmod	_
 3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-4	nende	tema	PRON	P	Case=Gen|Number=Plur|PronType=Dem	5	obl	5:obl	_
+4	nende	see	DET	P	Case=Gen|Number=Plur|PronType=Dem	5	det	5:det	_
 5	heade	hea	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	0	root	0:root	_
 6	hulgas	hulgas	ADP	K	AdpType=Post	5	case	5:case	_
 7	jällegi	jällegi	ADV	D	_	5	advmod	5:advmod	_
@@ -11807,7 +11807,7 @@
 9	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	10	nmod	10:nmod	_
 10	kogemused	kogemus	NOUN	S	Case=Nom|Number=Plur	11	nsubj:cop	11:nsubj	_
 11	sul	sina	PRON	P	Case=Ade|Number=Sing|Person=2|PronType=Prs	7	conj	1:ccomp|7:conj	_
-12	nende	tema	PRON	P	Case=Gen|Number=Plur|PronType=Dem	11	obl	11:obl	_
+12	nende	see	PRON	P	Case=Gen|Number=Plur|PronType=Dem	11	obl	11:obl	_
 13	põhjal	põhjal	ADP	K	AdpType=Post	12	case	12:case	_
 14	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 
