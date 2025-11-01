@@ -32,7 +32,8 @@ This work was financed by the [National Programme for Estonian Language Technolo
  
 # Changelog
 
-* UD v2.16: ExtPos feature added, a few minor fixes
+* UD v2.17: a few minor fixes, mostly related to obl:agent dependencies.
+* UD v2.16: ExtPos feature added, a few minor fixes.
 * UD v2.15: annotation of foreign words and determiners fixed, agent adverbials have special tag obl:agent.
 * UD v2.13: enhanced dependencies added.
 * UD v2.12: many errors fixed in the NE annotation, minor other fixes.
