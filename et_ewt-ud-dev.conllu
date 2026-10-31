@@ -6968,7 +6968,7 @@
 5	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
 6	ennem	ennem	ADV	D	_	10	advmod	10:advmod	_
 7	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	10	nsubj	10:nsubj	_
-8	sellist	selline	ADJ	P	Case=Par|Number=Sing|PronType=Dem	7	amod	7:amod	_
+8	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	7	det	7:det	_
 9	ette	ette	ADV	D	_	10	compound:prt	10:compound	_
 10	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
 
