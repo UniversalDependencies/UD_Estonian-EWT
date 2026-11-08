@@ -15,22 +15,22 @@
   <fusions unique="1" /><!-- IT's -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">5256</tag><!-- hea, suur, uus, esimene, viimane, vana, parem, huvitav, õige, järgmine -->
+    <tag name="ADJ">5248</tag><!-- hea, suur, uus, esimene, viimane, vana, parem, huvitav, õige, järgmine -->
     <tag name="ADP">1457</tag><!-- peale, eest, pärast, kohta, jaoks, üle, puhul, all, järgi, vastu -->
     <tag name="ADV">12669</tag><!-- ka, siis, nii, kas, ikka, veel, ju, mitte, juba, ära -->
-    <tag name="AUX">6143</tag><!-- olema, ei, pidama, võima, saama, ära, tunduma, tohtima, be, näima -->
+    <tag name="AUX">6142</tag><!-- olema, ei, pidama, võima, saama, ära, tunduma, tohtima, be, näima -->
     <tag name="CCONJ">3390</tag><!-- ja, aga, või, ning, kuid, ehk, vaid, ega, kui, e -->
-    <tag name="DET">2247</tag><!-- see, mingi, selline, üks, iga, kõik, mõni, teine, sama, kogu -->
+    <tag name="DET">2257</tag><!-- see, mingi, selline, üks, iga, kõik, mõni, teine, sama, kogu -->
     <tag name="INTJ">456</tag><!-- no, noh, aitäh, hmm, tere, kurat, ah, irw, oot, vot -->
     <tag name="NOUN">18072</tag><!-- inimene, asi, aasta, aeg, teema, auto, kord, päev, kool, mees -->
     <tag name="NUM">1403</tag><!-- 2, üks, kaks, 3, 10, 1, paar, 100, 4, 5 -->
     <tag name="PART">3</tag><!-- to, not -->
-    <tag name="PRON">6589</tag><!-- mina, see, mis, tema, sina, kes, oma, ise, miski, keegi -->
+    <tag name="PRON">6587</tag><!-- mina, see, mis, tema, sina, kes, oma, ise, miski, keegi -->
     <tag name="PROPN">3940</tag><!-- eesti, Saku, Tallinn, jumal, Hiina, Vasur, Tartu, Saare_maa, Itaalia, coq -->
     <tag name="PUNCT">14846</tag><!-- ,, ., :, ?, ", ..., !, ), -, ( -->
     <tag name="SCONJ">2688</tag><!-- et, kui, nagu, sest, kuna, siis, kuigi, kuni, just_kui, a -->
     <tag name="SYM">358</tag><!-- @, %, :), :D, ;), :s, :/, =), :(, :lol: -->
-    <tag name="VERB">10881</tag><!-- saama, olema, tegema, minema, tulema, teadma, ütlema, hakkama, panema, tahtma -->
+    <tag name="VERB">10882</tag><!-- saama, olema, tegema, minema, tulema, teadma, ütlema, hakkama, panema, tahtma -->
     <tag name="X">186</tag><!-- _, to, enthusiasistic, no, offtopic, Nooot, da, know, nõu, offence -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -113,11 +113,11 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="41">
-    <dep name="acl">1191</dep>
-    <dep name="acl:relcl">650</dep>
+    <dep name="acl">1190</dep>
+    <dep name="acl:relcl">651</dep>
     <dep name="advcl">1776</dep>
-    <dep name="advmod">9939</dep>
-    <dep name="amod">2792</dep>
+    <dep name="advmod">9938</dep>
+    <dep name="amod">2784</dep>
     <dep name="appos">223</dep>
     <dep name="aux">3255</dep>
     <dep name="case">1451</dep>
@@ -125,13 +125,13 @@
     <dep name="cc:preconj">36</dep>
     <dep name="ccomp">818</dep>
     <dep name="compound">69</dep>
-    <dep name="compound:prt">1177</dep>
+    <dep name="compound:prt">1179</dep>
     <dep name="conj">4894</dep>
-    <dep name="cop">2864</dep>
+    <dep name="cop">2863</dep>
     <dep name="csubj">269</dep>
     <dep name="csubj:cop">270</dep>
     <dep name="dep">77</dep>
-    <dep name="det">2234</dep>
+    <dep name="det">2244</dep>
     <dep name="discourse">645</dep>
     <dep name="fixed">101</dep>
     <dep name="flat">481</dep>
@@ -139,16 +139,16 @@
     <dep name="goeswith">92</dep>
     <dep name="list">1</dep>
     <dep name="mark">3078</dep>
-    <dep name="nmod">4242</dep>
+    <dep name="nmod">4240</dep>
     <dep name="nmod:poss">1</dep>
-    <dep name="nsubj">4541</dep>
-    <dep name="nsubj:cop">2684</dep>
+    <dep name="nsubj">4542</dep>
+    <dep name="nsubj:cop">2683</dep>
     <dep name="nummod">911</dep>
     <dep name="obj">4264</dep>
-    <dep name="obl">6639</dep>
+    <dep name="obl">6640</dep>
     <dep name="obl:agent">42</dep>
     <dep name="orphan">128</dep>
-    <dep name="parataxis">1871</dep>
+    <dep name="parataxis">1870</dep>
     <dep name="punct">14840</dep>
     <dep name="reparandum">8</dep>
     <dep name="root">7190</dep>
