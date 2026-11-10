@@ -11786,17 +11786,17 @@
 
 # sent_id = hfoorum_687
 # text = spiiker: KAS neid kõiki ühe teema alla ei saa?
-1	spiiker	spiiker	PROPN	S	Case=Nom|Number=Sing	5	parataxis	5:parataxis	NE=B-Per|SpaceAfter=No
+1	spiiker	spiiker	PROPN	S	Case=Nom|Number=Sing	4	parataxis	4:parataxis	NE=B-Per|SpaceAfter=No
 2	:	:	PUNCT	Z	_	1	punct	1:punct	_
-3	KAS	kas	ADV	D	_	5	advmod	5:advmod	_
-4	neid	see	DET	P	Case=Par|Number=Plur|PronType=Dem	5	det	5:det	_
-5	kõiki	kõik	PRON	P	Case=Par|Number=Plur|PronType=Tot	0	root	0:root	_
+3	KAS	kas	ADV	D	_	4	advmod	4:advmod	_
+4	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	0	root	0:root	_
+5	kõiki	kõik	DET	P	Case=Par|Number=Plur|PronType=Tot	4	det	4:det	_
 6	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	7	det	7:det	_
-7	teema	teema	NOUN	S	Case=Gen|Number=Sing	5	obl	5:obl	_
+7	teema	teema	NOUN	S	Case=Gen|Number=Sing	4	obl	4:obl	_
 8	alla	alla	ADP	K	AdpType=Post	7	case	7:case	_
-9	ei	ei	AUX	V	Polarity=Neg	5	aux	5:aux	_
-10	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	SpaceAfter=No
-11	?	?	PUNCT	Z	_	5	punct	5:punct	_
+9	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+10	saa	saama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	SpaceAfter=No
+11	?	?	PUNCT	Z	_	4	punct	4:punct	_
 
 # sent_id = hfoorum_688
 # text = Dedicated: Tähendab, kuidas kellelegi, eksju.
@@ -12684,7 +12684,7 @@
 12	"	"	PUNCT	Z	_	10	punct	10:punct	_
 13	või	või	CCONJ	J	_	14	cc	14:cc	_
 14	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	8	conj	3:nsubj:cop|8:conj	_
-15	sellist	selline	ADJ	P	Case=Par|Number=Sing|PronType=Dem	14	amod	14:amod	SpaceAfter=No
+15	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	14	det	14:det	SpaceAfter=No
 16	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = hfoorum_758
@@ -12799,13 +12799,13 @@
 # sent_id = hfoorum_767
 # text = See, et sinul seda vaja pole, on teine asi.
 1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	11:nsubj	SpaceAfter=No
-2	,	,	PUNCT	Z	_	4	punct	4:punct	_
-3	et	et	SCONJ	J	_	4	mark	4:mark	_
-4	sinul	sina	PRON	P	Case=Ade|Number=Sing|Person=2|PronType=Prs	1	acl	1:acl	_
-5	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	4	nsubj:cop	4:nsubj	_
-6	vaja	vaja	ADV	D	_	4	advmod	4:advmod	_
-7	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	SpaceAfter=No
-8	,	,	PUNCT	Z	_	4	punct	4:punct	_
+2	,	,	PUNCT	Z	_	7	punct	7:punct	_
+3	et	et	SCONJ	J	_	7	mark	7:mark	_
+4	sinul	sina	PRON	P	Case=Ade|Number=Sing|Person=2|PronType=Prs	7	obl	7:obl	_
+5	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
+6	vaja	vaja	ADV	D	_	7	compound:prt	7:compound:prt	_
+7	pole	olema	VERB	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl	SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	11:punct	_
 9	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
 10	teine	teine	DET	P	Case=Nom|Number=Sing|PronType=Dem	11	det	11:det	_
 11	asi	asi	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
@@ -13988,7 +13988,7 @@
 16	ei	ei	AUX	V	Polarity=Neg	17	aux	17:aux	_
 17	kavatse	kavatsema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 18	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	20	obj	20:obj	_
-19	sellist	selline	ADJ	P	Case=Par|Number=Sing|PronType=Dem	18	amod	18:amod	_
+19	sellist	selline	DET	P	Case=Par|Number=Sing|PronType=Dem	18	det	18:det	_
 20	teha	tegema	VERB	V	VerbForm=Inf	17	xcomp	17:xcomp	SpaceAfter=No
 21	.	.	PUNCT	Z	_	17	punct	17:punct	_
 
